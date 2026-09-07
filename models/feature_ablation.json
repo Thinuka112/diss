@@ -1,0 +1,22 @@
+{
+  "tissue_fraction (baseline, 1 feat)": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "gene metadata (expr, reliab, sex, age)": {
+    "accuracy": 0.45121951219512196,
+    "macro_f1": 0.42471750355459104
+  },
+  "pixels 32x32 (current model)": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "all combined": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  "majority class (reference)": {
+    "accuracy": 0.551219512195122,
+    "macro_f1": 0.3553459119496855
+  }
+}

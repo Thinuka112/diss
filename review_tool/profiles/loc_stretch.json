@@ -1,0 +1,12 @@
+{
+  "param": "loc_stretch",
+  "prompt": "Does THIS TILE contain a qualifying stretch? (~5 adjacent villus epithelial cells, apical + basal surfaces readable, staining legible)   (→ yes   ← no)",
+  "blind": true,
+  "bindings": [
+    { "key": "Right", "label": "yes" },
+    { "key": "Left",  "label": "no" }
+  ],
+  "skip_key": "space",
+  "undo_key": "BackSpace",
+  "_notes": "Stage-2 gold localisation set (scope 05). Items are 375px tiles cut 8x8 from 20 usable slides (mil_expert_set.py); served only via loc_set.txt PARAM_SUBSET. Judgments are EVALUATION data for the localisation model - never training data. Stain colour irrelevant; absence of staining fine; a stretch cut off at the tile edge counts if ~5 adjacent cells are visible within the tile; crypt cross-sections / glands / goblet-dominated areas / transition zones do not qualify."
+}

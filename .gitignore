@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Model weights are not shipped. Metrics and predictions are.
+*.pt
+*.pth
+*.joblib
+
+# Image payloads are rebuilt locally. Never committed.
+review_tool/webapp/review_images/
+review_tool/webapp/loc_tiles/
+review_tool/review_data/
+data_bulk/
+data_cache_1024/
+data_topup/
+HPA_small_intestine/
+HPA_small_intestine_tiles/
+
+# Local scratch
+*.log
+.DS_Store
+Thumbs.db

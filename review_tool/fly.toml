@@ -1,0 +1,31 @@
+# Fly.io config for the slice-quality review web app.
+# App name + region are placeholders - `fly launch` will confirm/change them.
+app = "slice-review-3bbe85"
+primary_region = "lhr"   # London (closest to Bath, UK)
+
+[build]
+  dockerfile = "Dockerfile"
+
+# Non-secret env. Secrets (passcode/tokens/allowlist) are set with `fly secrets set`.
+[env]
+  TARGET_REVIEWERS = "1"
+  # topup = the 500-slide mining batch; loc_stretch = Stage-2 per-tile localisation set
+  ENABLED_PROFILES = "slice_quality_topup,loc_stretch"
+  REVIEW_IMAGE_DIR = "/app/review_tool/webapp/review_images"
+  REVIEW_SESSIONS_DIR = "/app/review_tool/review_data/sessions"
+
+# Persistent disk for the judgment files (survives restarts/redeploys).
+[mounts]
+  source = "review_data"
+  destination = "/app/review_tool/review_data"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = "stop"     # spin down when idle (cheap); ~2s cold start on next visit
+  auto_start_machines = true
+  min_machines_running = 0        # bump to 1 for zero cold-starts during an active review push
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"

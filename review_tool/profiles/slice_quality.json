@@ -1,0 +1,12 @@
+{
+  "param": "slice_quality",
+  "prompt": "Is this a USABLE tissue slice?   (→ usable   ← unusable)",
+  "blind": true,
+  "bindings": [
+    { "key": "Right", "label": "usable" },
+    { "key": "Left",  "label": "unusable" }
+  ],
+  "skip_key": "space",
+  "undo_key": "BackSpace",
+  "_notes": "This is the default profile. Copy it to judge a different feature: change 'param' and the key->label 'bindings'. You can use Up/Down as well as Left/Right for up to four classes, e.g. add {\"key\":\"Up\",\"label\":\"borderline\"}. 'label' strings must match whatever your classifier emits (or use --label-map in compare_to_classifier.py to reconcile them)."
+}

@@ -1,0 +1,76 @@
+{
+  "macro_f1": 0.7363,
+  "accuracy": 0.8543,
+  "auc": 0.8538,
+  "precision": {
+    "unusable": 0.4828,
+    "usable": 0.9426
+  },
+  "recall": {
+    "unusable": 0.6667,
+    "usable": 0.8846
+  },
+  "f1": {
+    "unusable": 0.56,
+    "usable": 0.9127
+  },
+  "confusion_matrix": [
+    [
+      14,
+      7
+    ],
+    [
+      15,
+      115
+    ]
+  ],
+  "n_test": 151,
+  "test_class_counts": {
+    "usable": 130,
+    "unusable": 21
+  },
+  "fold": 4,
+  "tuned": {
+    "macro_f1": 0.6284,
+    "accuracy": 0.8477,
+    "auc": 0.8538,
+    "precision": {
+      "unusable": 0.4286,
+      "usable": 0.8905
+    },
+    "recall": {
+      "unusable": 0.2857,
+      "usable": 0.9385
+    },
+    "f1": {
+      "unusable": 0.3429,
+      "usable": 0.9139
+    },
+    "confusion_matrix": [
+      [
+        6,
+        15
+      ],
+      [
+        8,
+        122
+      ]
+    ],
+    "n_test": 151,
+    "test_class_counts": {
+      "usable": 130,
+      "unusable": 21
+    },
+    "threshold": 0.155
+  },
+  "stage1_val_f1": 0.8267,
+  "stage1_train_f1_at_best": 0.9793,
+  "stage1_gap": 0.1526,
+  "stage2_val_f1": 0.8007,
+  "stage2_train_f1_at_best": 0.961,
+  "stage2_gap": 0.1603,
+  "tuned_threshold": 0.155,
+  "n_train": 4532,
+  "n_train_human": 696,
+  "val_macro_f1": 0.8007
+}

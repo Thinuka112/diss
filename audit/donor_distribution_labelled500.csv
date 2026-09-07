@@ -1,0 +1,23 @@
+patient_id,n_images,labels
+1904,92,"{'usable': 85, 'unusable': 7}"
+1920,76,"{'usable': 64, 'unusable': 12}"
+2562,67,"{'usable': 63, 'unusable': 4}"
+3479,56,"{'usable': 51, 'unusable': 5}"
+3219,50,"{'usable': 46, 'unusable': 4}"
+1961,32,"{'usable': 31, 'unusable': 1}"
+3515,31,"{'usable': 30, 'unusable': 1}"
+2329,27,"{'usable': 22, 'unusable': 5}"
+3548,24,{'unusable': 24}
+2338,11,{'usable': 11}
+3004,9,{'usable': 9}
+3614,6,"{'usable': 1, 'unusable': 5}"
+64,3,{'usable': 3}
+2226,3,"{'usable': 2, 'unusable': 1}"
+1098,2,{'usable': 2}
+139,2,{'usable': 2}
+3413,2,{'usable': 2}
+1647,2,{'unusable': 2}
+1652,2,{'usable': 2}
+75,1,{'unusable': 1}
+148,1,{'usable': 1}
+1919,1,{'usable': 1}

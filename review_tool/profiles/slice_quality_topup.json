@@ -1,0 +1,12 @@
+{
+  "param": "slice_quality_topup",
+  "prompt": "Top-up: is this a USABLE tissue slice?   (→ usable   ← unusable)",
+  "blind": true,
+  "bindings": [
+    { "key": "Right", "label": "usable" },
+    { "key": "Left",  "label": "unusable" }
+  ],
+  "skip_key": "space",
+  "undo_key": "BackSpace",
+  "_notes": "Active-learning top-up pass. Serves only the model-mined likely-unusable shortlist (webapp/topup_set.txt, produced by mine_unusable_candidates.py). Stored separately from slice_quality so the enrichment batch is a clean, identifiable set for the retrain."
+}

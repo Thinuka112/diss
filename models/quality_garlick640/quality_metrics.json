@@ -1,0 +1,315 @@
+{
+  "task": "slice_quality_whole_slide_usable_vs_unusable",
+  "smoke": false,
+  "config": {
+    "arch": "resnet50 (timm, ImageNet-pretrained, fine-tuned)",
+    "input_size": 640,
+    "batch": 6,
+    "max_epochs": 20,
+    "patience": 6,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "amp": true,
+    "seed": 42,
+    "n_folds": 5,
+    "val_frac": 0.2,
+    "loss": "class-weighted CrossEntropyLoss (inverse frequency)",
+    "augmentation": "hflip, vflip, rot90, brightness/contrast x[0.9,1.1]",
+    "split": "donor-grouped GroupKFold by patient_id (no donor in two folds)",
+    "device": "NVIDIA GeForce RTX 2080"
+  },
+  "data": {
+    "csv": "review_tool/results/final_clean_dataset_20260802.csv",
+    "n_slides": 847,
+    "n_donors": 39,
+    "class_counts": {
+      "usable": 684,
+      "unusable": 163
+    }
+  },
+  "cnn_aggregate": {
+    "macro_f1_mean": 0.7623,
+    "macro_f1_std": 0.0912,
+    "auc_mean": 0.8898,
+    "auc_std": 0.0556,
+    "precision_usable_mean": 0.946,
+    "precision_usable_std": 0.0264,
+    "precision_unusable_mean": 0.5483,
+    "precision_unusable_std": 0.2196,
+    "recall_usable_mean": 0.8809,
+    "recall_usable_std": 0.0485,
+    "recall_unusable_mean": 0.7377,
+    "recall_unusable_std": 0.1368,
+    "confusion_matrix_summed": [
+      [
+        129,
+        34
+      ],
+      [
+        84,
+        600
+      ]
+    ],
+    "confusion_rows_true_cols_pred_order": [
+      "unusable",
+      "usable"
+    ]
+  },
+  "baselines": {
+    "majority_class": {
+      "per_fold_macro_f1": [
+        0.4569,
+        0.4654,
+        0.3764,
+        0.4816,
+        0.4422
+      ],
+      "macro_f1_mean": 0.4445,
+      "macro_f1_std": 0.0364
+    },
+    "tissue_fraction_heuristic": {
+      "per_fold_macro_f1": [
+        0.4928,
+        0.6324,
+        0.5388,
+        0.6035,
+        0.5928
+      ],
+      "per_fold_threshold": [
+        0.235,
+        0.21,
+        0.185,
+        0.21,
+        0.21
+      ],
+      "macro_f1_mean": 0.572,
+      "macro_f1_std": 0.0499,
+      "rule": "usable if mean tissue_fraction >= thr; thr max-F1 on train"
+    }
+  },
+  "beats_majority_by": 0.3178,
+  "beats_tissue_fraction_by": 0.1903,
+  "per_fold": [
+    {
+      "macro_f1": 0.7576,
+      "accuracy": 0.8647,
+      "auc": 0.8533,
+      "precision": {
+        "unusable": 0.5667,
+        "usable": 0.9286
+      },
+      "recall": {
+        "unusable": 0.6296,
+        "usable": 0.9091
+      },
+      "f1": {
+        "unusable": 0.5965,
+        "usable": 0.9187
+      },
+      "confusion_matrix": [
+        [
+          17,
+          10
+        ],
+        [
+          13,
+          130
+        ]
+      ],
+      "n_test": 170,
+      "test_class_counts": {
+        "usable": 143,
+        "unusable": 27
+      },
+      "fold": 1,
+      "val_macro_f1": 0.8649,
+      "test_donors": [
+        "133",
+        "1652",
+        "1826",
+        "1920",
+        "2256",
+        "29",
+        "3413",
+        "493"
+      ]
+    },
+    {
+      "macro_f1": 0.7289,
+      "accuracy": 0.8529,
+      "auc": 0.8664,
+      "precision": {
+        "unusable": 0.4545,
+        "usable": 0.9489
+      },
+      "recall": {
+        "unusable": 0.6818,
+        "usable": 0.8784
+      },
+      "f1": {
+        "unusable": 0.5455,
+        "usable": 0.9123
+      },
+      "confusion_matrix": [
+        [
+          15,
+          7
+        ],
+        [
+          18,
+          130
+        ]
+      ],
+      "n_test": 170,
+      "test_class_counts": {
+        "usable": 148,
+        "unusable": 22
+      },
+      "fold": 2,
+      "val_macro_f1": 0.8536,
+      "test_donors": [
+        "1098",
+        "1800",
+        "2471",
+        "2562",
+        "3004",
+        "4202",
+        "64",
+        "75",
+        "969"
+      ]
+    },
+    {
+      "macro_f1": 0.906,
+      "accuracy": 0.9112,
+      "auc": 0.9459,
+      "precision": {
+        "unusable": 0.9194,
+        "usable": 0.9065
+      },
+      "recall": {
+        "unusable": 0.8507,
+        "usable": 0.951
+      },
+      "f1": {
+        "unusable": 0.8837,
+        "usable": 0.9282
+      },
+      "confusion_matrix": [
+        [
+          57,
+          10
+        ],
+        [
+          5,
+          97
+        ]
+      ],
+      "n_test": 169,
+      "test_class_counts": {
+        "usable": 102,
+        "unusable": 67
+      },
+      "fold": 3,
+      "val_macro_f1": 0.7802,
+      "test_donors": [
+        "139",
+        "1647",
+        "1919",
+        "202",
+        "2650",
+        "3479",
+        "3614",
+        "4380"
+      ]
+    },
+    {
+      "macro_f1": 0.6253,
+      "accuracy": 0.8402,
+      "auc": 0.8195,
+      "precision": {
+        "unusable": 0.2414,
+        "usable": 0.9643
+      },
+      "recall": {
+        "unusable": 0.5833,
+        "usable": 0.8599
+      },
+      "f1": {
+        "unusable": 0.3415,
+        "usable": 0.9091
+      },
+      "confusion_matrix": [
+        [
+          7,
+          5
+        ],
+        [
+          22,
+          135
+        ]
+      ],
+      "n_test": 169,
+      "test_class_counts": {
+        "usable": 157,
+        "unusable": 12
+      },
+      "fold": 4,
+      "val_macro_f1": 0.8603,
+      "test_donors": [
+        "1420",
+        "148",
+        "1499",
+        "2450",
+        "3219",
+        "3515",
+        "3852"
+      ]
+    },
+    {
+      "macro_f1": 0.7937,
+      "accuracy": 0.8343,
+      "auc": 0.9638,
+      "precision": {
+        "unusable": 0.5593,
+        "usable": 0.9818
+      },
+      "recall": {
+        "unusable": 0.9429,
+        "usable": 0.806
+      },
+      "f1": {
+        "unusable": 0.7021,
+        "usable": 0.8852
+      },
+      "confusion_matrix": [
+        [
+          33,
+          2
+        ],
+        [
+          26,
+          108
+        ]
+      ],
+      "n_test": 169,
+      "test_class_counts": {
+        "usable": 134,
+        "unusable": 35
+      },
+      "fold": 5,
+      "val_macro_f1": 0.8269,
+      "test_donors": [
+        "1359",
+        "1961",
+        "2226",
+        "2329",
+        "2411",
+        "3472",
+        "582"
+      ]
+    }
+  ],
+  "best_fold": 3
+}

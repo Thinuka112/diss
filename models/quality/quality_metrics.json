@@ -1,0 +1,315 @@
+{
+  "task": "slice_quality_whole_slide_usable_vs_unusable",
+  "smoke": false,
+  "config": {
+    "arch": "resnet50 (timm, ImageNet-pretrained, fine-tuned)",
+    "input_size": 448,
+    "batch": 12,
+    "max_epochs": 20,
+    "patience": 6,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "amp": true,
+    "seed": 42,
+    "n_folds": 5,
+    "val_frac": 0.2,
+    "loss": "class-weighted CrossEntropyLoss (inverse frequency)",
+    "augmentation": "hflip, vflip, rot90, brightness/contrast x[0.9,1.1]",
+    "split": "donor-grouped GroupKFold by patient_id (no donor in two folds)",
+    "device": "NVIDIA GeForce RTX 2060 with Max-Q Design"
+  },
+  "data": {
+    "csv": "review_tool\\results\\final_clean_dataset_20260802.csv",
+    "n_slides": 847,
+    "n_donors": 39,
+    "class_counts": {
+      "usable": 684,
+      "unusable": 163
+    }
+  },
+  "cnn_aggregate": {
+    "macro_f1_mean": 0.7265,
+    "macro_f1_std": 0.0781,
+    "auc_mean": 0.8557,
+    "auc_std": 0.075,
+    "precision_usable_mean": 0.931,
+    "precision_usable_std": 0.0264,
+    "precision_unusable_mean": 0.5122,
+    "precision_unusable_std": 0.1749,
+    "recall_usable_mean": 0.8591,
+    "recall_usable_std": 0.0505,
+    "recall_unusable_mean": 0.6724,
+    "recall_unusable_std": 0.1802,
+    "confusion_matrix_summed": [
+      [
+        119,
+        44
+      ],
+      [
+        95,
+        589
+      ]
+    ],
+    "confusion_rows_true_cols_pred_order": [
+      "unusable",
+      "usable"
+    ]
+  },
+  "baselines": {
+    "majority_class": {
+      "per_fold_macro_f1": [
+        0.4603,
+        0.4769,
+        0.3787,
+        0.4686,
+        0.4385
+      ],
+      "macro_f1_mean": 0.4446,
+      "macro_f1_std": 0.0354
+    },
+    "tissue_fraction_heuristic": {
+      "per_fold_macro_f1": [
+        0.5573,
+        0.5175,
+        0.5534,
+        0.6081,
+        0.6266
+      ],
+      "per_fold_threshold": [
+        0.225,
+        0.225,
+        0.175,
+        0.215,
+        0.225
+      ],
+      "macro_f1_mean": 0.5726,
+      "macro_f1_std": 0.0395,
+      "rule": "usable if mean tissue_fraction >= thr; thr max-F1 on train"
+    }
+  },
+  "beats_majority_by": 0.2819,
+  "beats_tissue_fraction_by": 0.1539,
+  "per_fold": [
+    {
+      "macro_f1": 0.7012,
+      "accuracy": 0.8706,
+      "auc": 0.8392,
+      "precision": {
+        "unusable": 0.5882,
+        "usable": 0.902
+      },
+      "recall": {
+        "unusable": 0.4,
+        "usable": 0.9517
+      },
+      "f1": {
+        "unusable": 0.4762,
+        "usable": 0.9262
+      },
+      "confusion_matrix": [
+        [
+          10,
+          15
+        ],
+        [
+          7,
+          138
+        ]
+      ],
+      "n_test": 170,
+      "test_class_counts": {
+        "usable": 145,
+        "unusable": 25
+      },
+      "fold": 1,
+      "val_macro_f1": 0.7992,
+      "test_donors": [
+        "1652",
+        "1800",
+        "1826",
+        "1920",
+        "2450",
+        "3413",
+        "3852",
+        "582"
+      ]
+    },
+    {
+      "macro_f1": 0.7089,
+      "accuracy": 0.8588,
+      "auc": 0.92,
+      "precision": {
+        "unusable": 0.3636,
+        "usable": 0.9781
+      },
+      "recall": {
+        "unusable": 0.8,
+        "usable": 0.8645
+      },
+      "f1": {
+        "unusable": 0.5,
+        "usable": 0.9178
+      },
+      "confusion_matrix": [
+        [
+          12,
+          3
+        ],
+        [
+          21,
+          134
+        ]
+      ],
+      "n_test": 170,
+      "test_class_counts": {
+        "usable": 155,
+        "unusable": 15
+      },
+      "fold": 2,
+      "val_macro_f1": 0.7028,
+      "test_donors": [
+        "1098",
+        "1359",
+        "1499",
+        "2562",
+        "29",
+        "3004",
+        "493",
+        "64",
+        "969"
+      ]
+    },
+    {
+      "macro_f1": 0.8548,
+      "accuracy": 0.858,
+      "auc": 0.952,
+      "precision": {
+        "unusable": 0.7692,
+        "usable": 0.9341
+      },
+      "recall": {
+        "unusable": 0.9091,
+        "usable": 0.8252
+      },
+      "f1": {
+        "unusable": 0.8333,
+        "usable": 0.8763
+      },
+      "confusion_matrix": [
+        [
+          60,
+          6
+        ],
+        [
+          18,
+          85
+        ]
+      ],
+      "n_test": 169,
+      "test_class_counts": {
+        "usable": 103,
+        "unusable": 66
+      },
+      "fold": 3,
+      "val_macro_f1": 0.7347,
+      "test_donors": [
+        "139",
+        "1647",
+        "1919",
+        "2650",
+        "3472",
+        "3479",
+        "3614",
+        "75"
+      ]
+    },
+    {
+      "macro_f1": 0.615,
+      "accuracy": 0.7751,
+      "auc": 0.7386,
+      "precision": {
+        "unusable": 0.275,
+        "usable": 0.9302
+      },
+      "recall": {
+        "unusable": 0.55,
+        "usable": 0.8054
+      },
+      "f1": {
+        "unusable": 0.3667,
+        "usable": 0.8633
+      },
+      "confusion_matrix": [
+        [
+          11,
+          9
+        ],
+        [
+          29,
+          120
+        ]
+      ],
+      "n_test": 169,
+      "test_class_counts": {
+        "usable": 149,
+        "unusable": 20
+      },
+      "fold": 4,
+      "val_macro_f1": 0.8687,
+      "test_donors": [
+        "133",
+        "1420",
+        "148",
+        "2411",
+        "3219",
+        "3515",
+        "4380"
+      ]
+    },
+    {
+      "macro_f1": 0.7525,
+      "accuracy": 0.8166,
+      "auc": 0.8285,
+      "precision": {
+        "unusable": 0.5652,
+        "usable": 0.9106
+      },
+      "recall": {
+        "unusable": 0.7027,
+        "usable": 0.8485
+      },
+      "f1": {
+        "unusable": 0.6265,
+        "usable": 0.8784
+      },
+      "confusion_matrix": [
+        [
+          26,
+          11
+        ],
+        [
+          20,
+          112
+        ]
+      ],
+      "n_test": 169,
+      "test_class_counts": {
+        "usable": 132,
+        "unusable": 37
+      },
+      "fold": 5,
+      "val_macro_f1": 0.8342,
+      "test_donors": [
+        "1961",
+        "202",
+        "2226",
+        "2256",
+        "2329",
+        "2471",
+        "4202"
+      ]
+    }
+  ],
+  "best_fold": 3
+}

@@ -1,0 +1,44 @@
+{
+  "task": "expression",
+  "arch": "resnet18 (ImageNet-pretrained, fine-tuned)",
+  "device": "cuda",
+  "n_tiles": 6400,
+  "n_slides": 100,
+  "split": "60/20/20 grouped by slide, seed 42",
+  "classes": [
+    "not detected",
+    "low",
+    "medium",
+    "high"
+  ],
+  "test_accuracy": 0.4406,
+  "test_macro_f1": 0.3675,
+  "majority_baseline": 0.55,
+  "confusion_matrix": [
+    [
+      372,
+      170,
+      29,
+      133
+    ],
+    [
+      102,
+      106,
+      47,
+      65
+    ],
+    [
+      27,
+      8,
+      27,
+      2
+    ],
+    [
+      80,
+      40,
+      13,
+      59
+    ]
+  ],
+  "note": "expression is a genuine signal test; number reported straight."
+}

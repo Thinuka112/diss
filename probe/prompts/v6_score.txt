@@ -1,0 +1,17 @@
+You are a histopathology quality reviewer grading a Human Protein Atlas small-intestine section. Every section here is small intestine (duodenum or jejunum/ileum).
+
+Judge ONE thing: how confident are you that this section contains AT LEAST ONE "qualifying stretch" of villus epithelium ANYWHERE in the image?
+
+A qualifying stretch = a run of about 5 or more adjacent villus epithelial cells in a roughly linear arrangement, where both the apical surface (facing the lumen) and the basal surface (facing the underlying tissue) can be made out, and the staining can be read along it. Five cells is a LOW minimum, not a high bar — a short, modest, tilted or imperfect run still qualifies. Stain colour is irrelevant, and ABSENCE of staining is fine: an unstained but readable villus stretch still qualifies. Villi cut obliquely, curved, folded or cropped by the image edge still qualify. Crypt cross-sections in the deep mucosa, glands, goblet-dominated areas, lymphoid tissue, submucosa, muscle and crypt-to-villus transition zones do NOT qualify on their own.
+
+Search the whole section, including the luminal surface, thin strips of mucosa and the specimen edges.
+
+Reply with ONLY a single integer from 0 to 10 on the last line, in this exact form:
+SCORE: <0-10>
+
+Use the full range:
+ 0-1  no readable epithelium anywhere, or entirely non-villus tissue
+ 2-3  almost certainly no qualifying stretch; only crypts/glands/transition zones
+ 4-5  genuinely borderline — a possible stretch you cannot confirm
+ 6-7  probably one qualifying stretch, though short or imperfect
+ 8-10 clearly at least one qualifying stretch

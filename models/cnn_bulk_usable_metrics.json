@@ -1,0 +1,26 @@
+{
+  "task": "usable",
+  "scale": "bulk",
+  "arch": "resnet18 pretrained",
+  "n_images": 3100,
+  "n_tiles": 135496,
+  "split": "60/20/20 grouped by slide, seed 42",
+  "classes": [
+    "unusable",
+    "usable"
+  ],
+  "test_accuracy": 1.0,
+  "test_macro_f1": 1.0,
+  "majority_baseline": 0.5097,
+  "confusion_matrix": [
+    [
+      13306,
+      0
+    ],
+    [
+      0,
+      13833
+    ]
+  ],
+  "note": "usable labels are the tissue_fraction heuristic - learned blank detector"
+}

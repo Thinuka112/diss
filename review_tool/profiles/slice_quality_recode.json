@@ -1,0 +1,12 @@
+{
+  "param": "slice_quality_recode",
+  "prompt": "Re-review: is this a USABLE tissue slice?   (→ usable   ← unusable)",
+  "blind": true,
+  "bindings": [
+    { "key": "Right", "label": "usable" },
+    { "key": "Left",  "label": "unusable" }
+  ],
+  "skip_key": "space",
+  "undo_key": "BackSpace",
+  "_notes": "Second-pass re-code of a 50-slide subset (webapp/recode_set.txt) for intra-rater agreement. Stored separately from slice_quality so pass 1 and pass 2 can be compared via /api/agreement."
+}

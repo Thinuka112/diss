@@ -1,0 +1,117 @@
+{
+ "n_slides": 20,
+ "n_gold_tiles": 1280,
+ "yes_tiles_per_slide": {
+  "min": 6,
+  "median": 21,
+  "max": 41
+ },
+ "random_baseline": {
+  "top1": 0.327,
+  "top3": 0.652,
+  "top5": 0.794,
+  "auc": 0.5
+ },
+ "scorers": {
+  "contribution": {
+   "top1": {
+    "mean": 0.8,
+    "ci95": [
+     0.6,
+     0.95
+    ]
+   },
+   "top3": {
+    "mean": 0.95,
+    "ci95": [
+     0.85,
+     1.0
+    ]
+   },
+   "top5": {
+    "mean": 0.95,
+    "ci95": [
+     0.85,
+     1.0
+    ]
+   },
+   "auc": {
+    "mean": 0.774,
+    "ci95": [
+     0.697,
+     0.845
+    ]
+   }
+  },
+  "attention": {
+   "top1": {
+    "mean": 0.65,
+    "ci95": [
+     0.45,
+     0.85
+    ]
+   },
+   "top3": {
+    "mean": 0.9,
+    "ci95": [
+     0.75,
+     1.0
+    ]
+   },
+   "top5": {
+    "mean": 0.9,
+    "ci95": [
+     0.75,
+     1.0
+    ]
+   },
+   "auc": {
+    "mean": 0.754,
+    "ci95": [
+     0.635,
+     0.855
+    ]
+   }
+  },
+  "tissue_fraction": {
+   "top1": {
+    "mean": 0.65,
+    "ci95": [
+     0.45,
+     0.85
+    ]
+   },
+   "top3": {
+    "mean": 0.75,
+    "ci95": [
+     0.55,
+     0.9
+    ]
+   },
+   "top5": {
+    "mean": 0.9,
+    "ci95": [
+     0.75,
+     1.0
+    ]
+   },
+   "auc": {
+    "mean": 0.824,
+    "ci95": [
+     0.76,
+     0.879
+    ]
+   }
+  }
+ },
+ "success_criteria": {
+  "pointing_ge_0.60": true,
+  "pointing_ge_random_plus_0.20": true,
+  "beats_tissue_fraction": true
+ },
+ "silver_3x3": {
+  "n_overlap": 18,
+  "n_scored": 16,
+  "pointing": 0.5
+ }
+}

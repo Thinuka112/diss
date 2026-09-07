@@ -1,0 +1,36 @@
+{
+  "task": "slice-quality baseline: usable(has tissue) vs unusable(blank)",
+  "label_source": "weak (tissue_fraction thresholds), not human-annotated",
+  "n_tiles_total": 6400,
+  "n_weak_labeled": 4167,
+  "n_usable": 1872,
+  "n_unusable": 2295,
+  "n_ambiguous_excluded": 2233,
+  "n_slides": 100,
+  "split": "GroupShuffleSplit by source slide, test_size=0.2",
+  "img_size": 32,
+  "model": "RandomForestClassifier(n_estimators=200, class_weight=balanced)",
+  "test_accuracy": 1.0,
+  "test_precision_usable": 1.0,
+  "test_recall_usable": 1.0,
+  "test_f1_usable": 1.0,
+  "test_roc_auc": 1.0,
+  "confusion_matrix_labels": [
+    "unusable",
+    "usable"
+  ],
+  "confusion_matrix": [
+    [
+      452,
+      0
+    ],
+    [
+      0,
+      368
+    ]
+  ],
+  "predictions_all_tiles": {
+    "usable": 3213,
+    "unusable": 3187
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "task": "usable",
+  "arch": "resnet18 (ImageNet-pretrained, fine-tuned)",
+  "device": "cuda",
+  "n_tiles": 4167,
+  "n_slides": 100,
+  "split": "60/20/20 grouped by slide, seed 42",
+  "classes": [
+    "unusable",
+    "usable"
+  ],
+  "test_accuracy": 0.9878,
+  "test_macro_f1": 0.9877,
+  "majority_baseline": 0.5512,
+  "confusion_matrix": [
+    [
+      442,
+      10
+    ],
+    [
+      0,
+      368
+    ]
+  ],
+  "note": "usable labels are the tissue_fraction heuristic (no human labels yet) - a high score is a learned blank detector, not a validated quality model."
+}

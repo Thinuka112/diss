@@ -1,0 +1,162 @@
+{
+ "arm": "human_only_primary",
+ "emb_dir": "/tmp/tnm31_mil/emb_human",
+ "seed": 42,
+ "classes": [
+  "unusable",
+  "usable"
+ ],
+ "aggregate": {
+  "macro_f1_mean": 0.7024,
+  "macro_f1_std": 0.0386,
+  "mean_delta_vs_stage1": -0.0241,
+  "worst_fold_delta": -0.1572,
+  "parity_pass": false
+ },
+ "per_fold": [
+  {
+   "fold": 1,
+   "n_test": 170,
+   "macro_f1": 0.6674,
+   "auc": 0.7909,
+   "confusion_unusable_usable": [
+    [
+     13,
+     12
+    ],
+    [
+     20,
+     125
+    ]
+   ],
+   "val_macro_f1": 0.7688,
+   "stage1_448_macro_f1": 0.7012,
+   "delta_vs_stage1": -0.0338,
+   "test_donors": [
+    "1652",
+    "1800",
+    "1826",
+    "1920",
+    "2450",
+    "3413",
+    "3852",
+    "582"
+   ]
+  },
+  {
+   "fold": 2,
+   "n_test": 170,
+   "macro_f1": 0.6741,
+   "auc": 0.831,
+   "confusion_unusable_usable": [
+    [
+     8,
+     7
+    ],
+    [
+     15,
+     140
+    ]
+   ],
+   "val_macro_f1": 0.7279,
+   "stage1_448_macro_f1": 0.7089,
+   "delta_vs_stage1": -0.0348,
+   "test_donors": [
+    "1098",
+    "1359",
+    "1499",
+    "2562",
+    "29",
+    "3004",
+    "493",
+    "64",
+    "969"
+   ]
+  },
+  {
+   "fold": 3,
+   "n_test": 169,
+   "macro_f1": 0.6976,
+   "auc": 0.8229,
+   "confusion_unusable_usable": [
+    [
+     31,
+     35
+    ],
+    [
+     9,
+     94
+    ]
+   ],
+   "val_macro_f1": 0.8225,
+   "stage1_448_macro_f1": 0.8548,
+   "delta_vs_stage1": -0.1572,
+   "test_donors": [
+    "139",
+    "1647",
+    "1919",
+    "2650",
+    "3472",
+    "3479",
+    "3614",
+    "75"
+   ]
+  },
+  {
+   "fold": 4,
+   "n_test": 169,
+   "macro_f1": 0.6972,
+   "auc": 0.803,
+   "confusion_unusable_usable": [
+    [
+     8,
+     12
+    ],
+    [
+     7,
+     142
+    ]
+   ],
+   "val_macro_f1": 0.8756,
+   "stage1_448_macro_f1": 0.615,
+   "delta_vs_stage1": 0.0822,
+   "test_donors": [
+    "133",
+    "1420",
+    "148",
+    "2411",
+    "3219",
+    "3515",
+    "4380"
+   ]
+  },
+  {
+   "fold": 5,
+   "n_test": 169,
+   "macro_f1": 0.7756,
+   "auc": 0.7932,
+   "confusion_unusable_usable": [
+    [
+     20,
+     17
+    ],
+    [
+     6,
+     126
+    ]
+   ],
+   "val_macro_f1": 0.8857,
+   "stage1_448_macro_f1": 0.7525,
+   "delta_vs_stage1": 0.0231,
+   "test_donors": [
+    "1961",
+    "202",
+    "2226",
+    "2256",
+    "2329",
+    "2471",
+    "4202"
+   ]
+  }
+ ]
+}

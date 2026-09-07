@@ -1,0 +1,474 @@
+{
+  "task": "resnet50_armF_combined_donor_grouped_cv_foldmatched_armB",
+  "config": {
+    "arch": "resnet50",
+    "input_size": 640,
+    "batch": 6,
+    "max_epochs": 20,
+    "seed": 42,
+    "csv": "combined_human_s2usable_20260828.csv",
+    "recipe": {
+      "soft_targets": true,
+      "sampler": true,
+      "geo_aug_only": true,
+      "two_stage": true
+    },
+    "folds": "Arm B test-donor partition; test = human rows only"
+  },
+  "aggregate": {
+    "macro_f1": [
+      0.7775,
+      0.0448
+    ],
+    "tuned_macro_f1": [
+      0.7878,
+      0.0599
+    ],
+    "accuracy": [
+      0.8486,
+      0.0322
+    ],
+    "tuned_accuracy": [
+      0.8572,
+      0.0589
+    ],
+    "auc": [
+      0.9059,
+      0.0354
+    ],
+    "recall_unusable": [
+      0.7734,
+      0.1074
+    ],
+    "confusion_summed": [
+      [
+        126,
+        37
+      ],
+      [
+        90,
+        594
+      ]
+    ],
+    "confusion_summed_tuned": [
+      [
+        122,
+        41
+      ],
+      [
+        78,
+        606
+      ]
+    ],
+    "mean_delta_vs_armB_argmax": -0.0266,
+    "mean_delta_vs_armB_tuned": -0.032
+  },
+  "armB_reference": {
+    "argmax_macro_f1": [
+      0.7876,
+      0.7765,
+      0.8341,
+      0.8042,
+      0.8183
+    ],
+    "tuned_macro_f1": [
+      0.7842,
+      0.7733,
+      0.8876,
+      0.7788,
+      0.8755
+    ]
+  },
+  "per_fold": [
+    {
+      "macro_f1": 0.7405,
+      "accuracy": 0.7905,
+      "auc": 0.8869,
+      "precision": {
+        "unusable": 0.5098,
+        "usable": 0.9381
+      },
+      "recall": {
+        "unusable": 0.8125,
+        "usable": 0.7845
+      },
+      "f1": {
+        "unusable": 0.6265,
+        "usable": 0.8545
+      },
+      "confusion_matrix": [
+        [
+          26,
+          6
+        ],
+        [
+          25,
+          91
+        ]
+      ],
+      "n_test": 148,
+      "test_class_counts": {
+        "usable": 116,
+        "unusable": 32
+      },
+      "fold": 1,
+      "tuned": {
+        "macro_f1": 0.7003,
+        "accuracy": 0.7432,
+        "auc": 0.8869,
+        "precision": {
+          "unusable": 0.45,
+          "usable": 0.9432
+        },
+        "recall": {
+          "unusable": 0.8438,
+          "usable": 0.7155
+        },
+        "f1": {
+          "unusable": 0.587,
+          "usable": 0.8137
+        },
+        "confusion_matrix": [
+          [
+            27,
+            5
+          ],
+          [
+            33,
+            83
+          ]
+        ],
+        "n_test": 148,
+        "test_class_counts": {
+          "usable": 116,
+          "unusable": 32
+        },
+        "threshold": 0.83
+      },
+      "stage1_val_f1": 0.9349,
+      "stage1_train_f1_at_best": 0.9722,
+      "stage1_gap": 0.0372,
+      "stage2_val_f1": 0.9876,
+      "stage2_train_f1_at_best": 0.9837,
+      "stage2_gap": -0.0039,
+      "tuned_threshold": 0.83,
+      "n_train": 4558,
+      "n_train_human": 699,
+      "val_macro_f1": 0.9876,
+      "delta_vs_armB_argmax": -0.0471,
+      "delta_vs_armB_tuned": -0.0839
+    },
+    {
+      "macro_f1": 0.7403,
+      "accuracy": 0.85,
+      "auc": 0.8497,
+      "precision": {
+        "unusable": 0.5238,
+        "usable": 0.927
+      },
+      "recall": {
+        "unusable": 0.6286,
+        "usable": 0.8919
+      },
+      "f1": {
+        "unusable": 0.5714,
+        "usable": 0.9091
+      },
+      "confusion_matrix": [
+        [
+          22,
+          13
+        ],
+        [
+          20,
+          165
+        ]
+      ],
+      "n_test": 220,
+      "test_class_counts": {
+        "usable": 185,
+        "unusable": 35
+      },
+      "fold": 2,
+      "tuned": {
+        "macro_f1": 0.7509,
+        "accuracy": 0.8636,
+        "auc": 0.8497,
+        "precision": {
+          "unusable": 0.5676,
+          "usable": 0.9235
+        },
+        "recall": {
+          "unusable": 0.6,
+          "usable": 0.9135
+        },
+        "f1": {
+          "unusable": 0.5833,
+          "usable": 0.9185
+        },
+        "confusion_matrix": [
+          [
+            21,
+            14
+          ],
+          [
+            16,
+            169
+          ]
+        ],
+        "n_test": 220,
+        "test_class_counts": {
+          "usable": 185,
+          "unusable": 35
+        },
+        "threshold": 0.46
+      },
+      "stage1_val_f1": 0.7286,
+      "stage1_train_f1_at_best": 0.9802,
+      "stage1_gap": 0.2516,
+      "stage2_val_f1": 0.8208,
+      "stage2_train_f1_at_best": 0.9949,
+      "stage2_gap": 0.1741,
+      "tuned_threshold": 0.46,
+      "n_train": 4509,
+      "n_train_human": 627,
+      "val_macro_f1": 0.8208,
+      "delta_vs_armB_argmax": -0.0362,
+      "delta_vs_armB_tuned": -0.0224
+    },
+    {
+      "macro_f1": 0.7814,
+      "accuracy": 0.8693,
+      "auc": 0.9071,
+      "precision": {
+        "unusable": 0.6207,
+        "usable": 0.9274
+      },
+      "recall": {
+        "unusable": 0.6667,
+        "usable": 0.9127
+      },
+      "f1": {
+        "unusable": 0.6429,
+        "usable": 0.92
+      },
+      "confusion_matrix": [
+        [
+          18,
+          9
+        ],
+        [
+          11,
+          115
+        ]
+      ],
+      "n_test": 153,
+      "test_class_counts": {
+        "usable": 126,
+        "unusable": 27
+      },
+      "fold": 3,
+      "tuned": {
+        "macro_f1": 0.7894,
+        "accuracy": 0.8758,
+        "auc": 0.9071,
+        "precision": {
+          "unusable": 0.6429,
+          "usable": 0.928
+        },
+        "recall": {
+          "unusable": 0.6667,
+          "usable": 0.9206
+        },
+        "f1": {
+          "unusable": 0.6545,
+          "usable": 0.9243
+        },
+        "confusion_matrix": [
+          [
+            18,
+            9
+          ],
+          [
+            10,
+            116
+          ]
+        ],
+        "n_test": 153,
+        "test_class_counts": {
+          "usable": 126,
+          "unusable": 27
+        },
+        "threshold": 0.448
+      },
+      "stage1_val_f1": 0.7152,
+      "stage1_train_f1_at_best": 0.9736,
+      "stage1_gap": 0.2584,
+      "stage2_val_f1": 0.8213,
+      "stage2_train_f1_at_best": 0.9881,
+      "stage2_gap": 0.1668,
+      "tuned_threshold": 0.448,
+      "n_train": 4553,
+      "n_train_human": 694,
+      "val_macro_f1": 0.8213,
+      "delta_vs_armB_argmax": -0.0527,
+      "delta_vs_armB_tuned": -0.0982
+    },
+    {
+      "macro_f1": 0.7638,
+      "accuracy": 0.8477,
+      "auc": 0.941,
+      "precision": {
+        "unusable": 0.475,
+        "usable": 0.982
+      },
+      "recall": {
+        "unusable": 0.9048,
+        "usable": 0.8385
+      },
+      "f1": {
+        "unusable": 0.623,
+        "usable": 0.9046
+      },
+      "confusion_matrix": [
+        [
+          19,
+          2
+        ],
+        [
+          21,
+          109
+        ]
+      ],
+      "n_test": 151,
+      "test_class_counts": {
+        "usable": 130,
+        "unusable": 21
+      },
+      "fold": 4,
+      "tuned": {
+        "macro_f1": 0.8231,
+        "accuracy": 0.9007,
+        "auc": 0.941,
+        "precision": {
+          "unusable": 0.6,
+          "usable": 0.9752
+        },
+        "recall": {
+          "unusable": 0.8571,
+          "usable": 0.9077
+        },
+        "f1": {
+          "unusable": 0.7059,
+          "usable": 0.9402
+        },
+        "confusion_matrix": [
+          [
+            18,
+            3
+          ],
+          [
+            12,
+            118
+          ]
+        ],
+        "n_test": 151,
+        "test_class_counts": {
+          "usable": 130,
+          "unusable": 21
+        },
+        "threshold": 0.245
+      },
+      "stage1_val_f1": 0.8211,
+      "stage1_train_f1_at_best": 0.9483,
+      "stage1_gap": 0.1273,
+      "stage2_val_f1": 0.8316,
+      "stage2_train_f1_at_best": 0.9261,
+      "stage2_gap": 0.0945,
+      "tuned_threshold": 0.245,
+      "n_train": 4532,
+      "n_train_human": 696,
+      "val_macro_f1": 0.8316,
+      "delta_vs_armB_argmax": -0.0404,
+      "delta_vs_armB_tuned": 0.0443
+    },
+    {
+      "macro_f1": 0.8616,
+      "accuracy": 0.8857,
+      "auc": 0.9447,
+      "precision": {
+        "unusable": 0.7593,
+        "usable": 0.9421
+      },
+      "recall": {
+        "unusable": 0.8542,
+        "usable": 0.8976
+      },
+      "f1": {
+        "unusable": 0.8039,
+        "usable": 0.9194
+      },
+      "confusion_matrix": [
+        [
+          41,
+          7
+        ],
+        [
+          13,
+          114
+        ]
+      ],
+      "n_test": 175,
+      "test_class_counts": {
+        "usable": 127,
+        "unusable": 48
+      },
+      "fold": 5,
+      "tuned": {
+        "macro_f1": 0.8755,
+        "accuracy": 0.9029,
+        "auc": 0.9447,
+        "precision": {
+          "unusable": 0.8444,
+          "usable": 0.9231
+        },
+        "recall": {
+          "unusable": 0.7917,
+          "usable": 0.9449
+        },
+        "f1": {
+          "unusable": 0.8172,
+          "usable": 0.9339
+        },
+        "confusion_matrix": [
+          [
+            38,
+            10
+          ],
+          [
+            7,
+            120
+          ]
+        ],
+        "n_test": 175,
+        "test_class_counts": {
+          "usable": 127,
+          "unusable": 48
+        },
+        "threshold": 0.209
+      },
+      "stage1_val_f1": 0.785,
+      "stage1_train_f1_at_best": 0.9614,
+      "stage1_gap": 0.1764,
+      "stage2_val_f1": 0.8072,
+      "stage2_train_f1_at_best": 0.9682,
+      "stage2_gap": 0.161,
+      "tuned_threshold": 0.209,
+      "n_train": 4572,
+      "n_train_human": 672,
+      "val_macro_f1": 0.8072,
+      "delta_vs_armB_argmax": 0.0433,
+      "delta_vs_armB_tuned": 0.0
+    }
+  ]
+}

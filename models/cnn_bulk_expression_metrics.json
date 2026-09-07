@@ -1,0 +1,44 @@
+{
+  "task": "expression",
+  "scale": "bulk",
+  "arch": "resnet18 pretrained",
+  "n_images": 3100,
+  "n_tiles": 198400,
+  "split": "60/20/20 grouped by slide, seed 42",
+  "classes": [
+    "not detected",
+    "low",
+    "medium",
+    "high"
+  ],
+  "test_accuracy": 0.5561,
+  "test_macro_f1": 0.311,
+  "majority_baseline": 0.8226,
+  "confusion_matrix": [
+    [
+      515,
+      60,
+      134,
+      187
+    ],
+    [
+      106,
+      159,
+      121,
+      126
+    ],
+    [
+      923,
+      511,
+      2174,
+      2024
+    ],
+    [
+      4562,
+      2212,
+      6647,
+      19219
+    ]
+  ],
+  "note": "expression: real signal test, reported straight"
+}

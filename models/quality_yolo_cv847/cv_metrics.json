@@ -1,0 +1,325 @@
+{
+  "task": "yolov8s_cls_donor_grouped_cv847_foldmatched_armB",
+  "config": {
+    "model": "yolov8s-cls (ultralytics as shipped)",
+    "imgsz": 640,
+    "batch": 16,
+    "epochs_max": 40,
+    "patience": 12,
+    "seed": 42,
+    "oversample": "train unusable x8",
+    "folds": "Arm B (quality_union_humanonly) test_donors, Sum n_test=847",
+    "val": "donor-grouped 20% of the non-test pool, seed 42",
+    "threshold": "tuned per fold on val"
+  },
+  "aggregate": {
+    "macro_f1": [
+      0.7758,
+      0.0615
+    ],
+    "tuned_macro_f1": [
+      0.81,
+      0.0669
+    ],
+    "accuracy": [
+      0.8748,
+      0.0283
+    ],
+    "tuned_accuracy": [
+      0.8831,
+      0.046
+    ],
+    "auc": [
+      0.9113,
+      0.0256
+    ],
+    "confusion_summed": [
+      [
+        107,
+        56
+      ],
+      [
+        53,
+        631
+      ]
+    ],
+    "mean_delta_vs_armB": -0.0283,
+    "mean_tuned_delta_vs_armB": 0.0058
+  },
+  "armB_reference": {
+    "per_fold_macro_f1": [
+      0.7876,
+      0.7765,
+      0.8341,
+      0.8042,
+      0.8183
+    ]
+  },
+  "per_fold": [
+    {
+      "macro_f1": 0.8348,
+      "accuracy": 0.8784,
+      "auc": 0.8798,
+      "recall": {
+        "unusable": 0.8438,
+        "usable": 0.8879
+      },
+      "precision": {
+        "unusable": 0.675,
+        "usable": 0.9537
+      },
+      "confusion_matrix": [
+        [
+          27,
+          5
+        ],
+        [
+          13,
+          103
+        ]
+      ],
+      "n_test": 148,
+      "tuned": {
+        "macro_f1": 0.7284,
+        "accuracy": 0.8311,
+        "auc": 0.8798,
+        "recall": {
+          "unusable": 0.5,
+          "usable": 0.9224
+        },
+        "precision": {
+          "unusable": 0.64,
+          "usable": 0.8699
+        },
+        "confusion_matrix": [
+          [
+            16,
+            16
+          ],
+          [
+            9,
+            107
+          ]
+        ],
+        "n_test": 148,
+        "threshold": 0.185
+      },
+      "fold": 1,
+      "armB_macro_f1": 0.7876,
+      "delta_vs_armB": 0.0472,
+      "tuned_delta_vs_armB": -0.0592
+    },
+    {
+      "macro_f1": 0.7187,
+      "accuracy": 0.8409,
+      "auc": 0.885,
+      "recall": {
+        "unusable": 0.5714,
+        "usable": 0.8919
+      },
+      "precision": {
+        "unusable": 0.5,
+        "usable": 0.9167
+      },
+      "confusion_matrix": [
+        [
+          20,
+          15
+        ],
+        [
+          20,
+          165
+        ]
+      ],
+      "n_test": 220,
+      "tuned": {
+        "macro_f1": 0.7391,
+        "accuracy": 0.8636,
+        "auc": 0.885,
+        "recall": {
+          "unusable": 0.5429,
+          "usable": 0.9243
+        },
+        "precision": {
+          "unusable": 0.5758,
+          "usable": 0.9144
+        },
+        "confusion_matrix": [
+          [
+            19,
+            16
+          ],
+          [
+            14,
+            171
+          ]
+        ],
+        "n_test": 220,
+        "threshold": 0.365
+      },
+      "fold": 2,
+      "armB_macro_f1": 0.7765,
+      "delta_vs_armB": -0.0578,
+      "tuned_delta_vs_armB": -0.0374
+    },
+    {
+      "macro_f1": 0.8241,
+      "accuracy": 0.915,
+      "auc": 0.9262,
+      "recall": {
+        "unusable": 0.5556,
+        "usable": 0.9921
+      },
+      "precision": {
+        "unusable": 0.9375,
+        "usable": 0.9124
+      },
+      "confusion_matrix": [
+        [
+          15,
+          12
+        ],
+        [
+          1,
+          125
+        ]
+      ],
+      "n_test": 153,
+      "tuned": {
+        "macro_f1": 0.8814,
+        "accuracy": 0.9281,
+        "auc": 0.9262,
+        "recall": {
+          "unusable": 0.8519,
+          "usable": 0.9444
+        },
+        "precision": {
+          "unusable": 0.7667,
+          "usable": 0.9675
+        },
+        "confusion_matrix": [
+          [
+            23,
+            4
+          ],
+          [
+            7,
+            119
+          ]
+        ],
+        "n_test": 153,
+        "threshold": 0.889
+      },
+      "fold": 3,
+      "armB_macro_f1": 0.8341,
+      "delta_vs_armB": -0.01,
+      "tuned_delta_vs_armB": 0.0473
+    },
+    {
+      "macro_f1": 0.6851,
+      "accuracy": 0.894,
+      "auc": 0.9478,
+      "recall": {
+        "unusable": 0.2857,
+        "usable": 0.9923
+      },
+      "precision": {
+        "unusable": 0.8571,
+        "usable": 0.8958
+      },
+      "confusion_matrix": [
+        [
+          6,
+          15
+        ],
+        [
+          1,
+          129
+        ]
+      ],
+      "n_test": 151,
+      "tuned": {
+        "macro_f1": 0.8847,
+        "accuracy": 0.947,
+        "auc": 0.9478,
+        "recall": {
+          "unusable": 0.7619,
+          "usable": 0.9769
+        },
+        "precision": {
+          "unusable": 0.8421,
+          "usable": 0.9621
+        },
+        "confusion_matrix": [
+          [
+            16,
+            5
+          ],
+          [
+            3,
+            127
+          ]
+        ],
+        "n_test": 151,
+        "threshold": 0.883
+      },
+      "fold": 4,
+      "armB_macro_f1": 0.8042,
+      "delta_vs_armB": -0.1191,
+      "tuned_delta_vs_armB": 0.0805
+    },
+    {
+      "macro_f1": 0.8163,
+      "accuracy": 0.8457,
+      "auc": 0.9178,
+      "recall": {
+        "unusable": 0.8125,
+        "usable": 0.8583
+      },
+      "precision": {
+        "unusable": 0.6842,
+        "usable": 0.9237
+      },
+      "confusion_matrix": [
+        [
+          39,
+          9
+        ],
+        [
+          18,
+          109
+        ]
+      ],
+      "n_test": 175,
+      "tuned": {
+        "macro_f1": 0.8163,
+        "accuracy": 0.8457,
+        "auc": 0.9178,
+        "recall": {
+          "unusable": 0.8125,
+          "usable": 0.8583
+        },
+        "precision": {
+          "unusable": 0.6842,
+          "usable": 0.9237
+        },
+        "confusion_matrix": [
+          [
+            39,
+            9
+          ],
+          [
+            18,
+            109
+          ]
+        ],
+        "n_test": 175,
+        "threshold": 0.515
+      },
+      "fold": 5,
+      "armB_macro_f1": 0.8183,
+      "delta_vs_armB": -0.002,
+      "tuned_delta_vs_armB": -0.002
+    }
+  ]
+}

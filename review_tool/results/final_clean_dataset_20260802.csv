@@ -1,0 +1,848 @@
+image_id,label,patient_id,tissue,batch,reviewer,event_ts
+Duodenum_A1CF_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:29:39.633668
+Duodenum_AAAS_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:29:45.737383
+Duodenum_AACS_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:29:48.521626
+Duodenum_AAGAB_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:29:50.281994
+Duodenum_ABCA4_Female_61_3614.jpg,usable,3614,Duodenum,original,expert,2026-07-23T13:30:08.906108
+Duodenum_ABCA9_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:51:51.678848
+Duodenum_ABCG2_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T12:51:54.214380
+Duodenum_ABCG4_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T12:51:55.782707
+Duodenum_ABHD10_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T14:51:45.734496
+Duodenum_ABHD17C_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T12:52:10.319112
+Duodenum_ABHD8_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T12:52:15.646930
+Duodenum_ABI3_Female_61_3614.jpg,unusable,3614,Duodenum,original,expert,2026-07-23T12:52:19.591773
+Duodenum_ABI3_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T12:52:22.134634
+Duodenum_ACAN_Male_54_2562.jpg,unusable,2562,Duodenum,original,expert,2026-07-23T12:52:48.622644
+Duodenum_ACAP2_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:24:52.461303
+Duodenum_ACAT1_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T12:52:50.471148
+Duodenum_ACBD3_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T12:52:59.063271
+Duodenum_ACBD5_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T12:53:03.072464
+Duodenum_ACOT2_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T12:53:12.360065
+Duodenum_ACSL1_Female_61_3614.jpg,unusable,3614,Duodenum,original,expert,2026-07-23T12:53:16.230972
+Duodenum_ACSL3_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:26:40.603646
+Duodenum_ACSL6_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T12:53:19.672304
+Duodenum_ACSM2B_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T12:53:21.502755
+Duodenum_ACTBL2_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:53:23.111684
+Duodenum_ACTC1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:53:25.250676
+Duodenum_ACVR2A_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:53:30.351470
+Duodenum_ADAL_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:02:01.043907
+Duodenum_ADGRG1_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T12:53:37.016400
+Duodenum_ADH6_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T12:53:40.296308
+Duodenum_ADH6_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T14:51:31.623947
+Duodenum_ADORA2A_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:23:02.152667
+Duodenum_ADORA2A_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:14:38.137813
+Duodenum_AGPAT1_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T12:53:54.192255
+Duodenum_AGR2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T12:53:57.112165
+Duodenum_AGR3_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:29:43.182705
+Duodenum_AGTPBP1_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T12:53:59.208041
+Duodenum_AIP_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T12:54:24.825126
+Duodenum_AIP_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:11:31.257889
+Duodenum_AK4_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:54:27.248391
+Duodenum_AK5_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T12:54:28.488545
+Duodenum_AKAP8_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T12:55:06.736937
+Duodenum_AKAP8_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T14:50:16.977401
+Duodenum_AKIRIN1_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:29:50.886477
+Duodenum_AKR1B10_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:21:43.504744
+Duodenum_AKR1C1_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T14:59:35.989517
+Duodenum_AKR1C3_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T12:55:14.945253
+Duodenum_ALDOB_Female_75_1098.jpg,usable,1098,Duodenum,original,expert,2026-07-23T12:56:41.620361
+Duodenum_ALDOB_Male_73_1420.jpg,usable,1420,Duodenum,topup,expert,2026-07-28T17:01:08.063565
+Duodenum_ALDOB_Male_84_139.jpg,usable,139,Duodenum,original,expert,2026-07-23T12:56:44.105727
+Duodenum_ALG12_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:56:47.433848
+Duodenum_ALG6_Female_61_3614.jpg,unusable,3614,Duodenum,original,expert,2026-07-23T12:56:52.633617
+Duodenum_ALG8_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T12:56:54.298310
+Duodenum_ALKBH4_Female_67_3479.jpg,unusable,3479,Duodenum,original,expert,2026-07-23T12:57:01.219990
+Duodenum_ALKBH5_Male_66_2329.jpg,unusable,2329,Duodenum,original,expert,2026-07-23T12:57:25.515162
+Duodenum_ALMS1_Male_55_1920.jpg,unusable,1920,Duodenum,topup_mining,expert,2026-08-02T14:56:38.574102
+Duodenum_ALPP_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:57:28.015439
+Duodenum_AMN_Female_48_75.jpg,usable,75,Duodenum,topup_mining,expert,2026-08-02T14:53:00.494285
+Duodenum_ANAPC16_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T12:57:30.796410
+Duodenum_ANKRA2_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T12:57:50.826593
+Duodenum_ANKRD12_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:30:05.242159
+Duodenum_ANKRD12_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:57:52.922980
+Duodenum_ANLN_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T12:57:56.698291
+Duodenum_ANPEP_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T12:58:05.298812
+Duodenum_ANXA13_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:09:47.388798
+Duodenum_AP5Z1_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T12:58:34.283572
+Duodenum_APBA2_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T14:58:36.838959
+Duodenum_APC_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T15:02:33.971252
+Duodenum_APC_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T12:58:36.419825
+Duodenum_APH1A_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:58:39.147225
+Duodenum_API5_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T14:35:08.205864
+Duodenum_APIP_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T12:58:43.283134
+Duodenum_APLP2_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:00:57.138818
+Duodenum_APOC3_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:51:02.295328
+Duodenum_APOO_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:00:15.774374
+Duodenum_APPBP2_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:00:17.596492
+Duodenum_APTX_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:00:19.662083
+Duodenum_AQP10_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:00:23.060063
+Duodenum_AQP1_Female_48_75.jpg,unusable,75,Duodenum,topup_mining,expert,2026-08-02T14:53:06.944842
+Duodenum_AQP1_Male_63_1647.jpg,unusable,1647,Duodenum,topup_mining,expert,2026-08-02T15:06:11.143850
+Duodenum_AQP1_Male_79_2650.jpg,usable,2650,Duodenum,topup,expert,2026-07-28T17:01:13.150828
+Duodenum_AQP3_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:29:30.758951
+Duodenum_ARAF_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:00:25.532607
+Duodenum_ARFRP1_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:01:19.909459
+Duodenum_ARG2_Female_48_75.jpg,unusable,75,Duodenum,original,expert,2026-07-23T13:01:41.871321
+Duodenum_ARHGAP12_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:01:48.182801
+Duodenum_ARHGAP8_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T14:58:30.129032
+Duodenum_ARHGEF16_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:01:50.149711
+Duodenum_ARIH1_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:16:32.114919
+Duodenum_ARL15_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:01:51.399766
+Duodenum_ARL16_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:01:52.501386
+Duodenum_ARL17A_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:08:23.789165
+Duodenum_ARL17A_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:01:56.494148
+Duodenum_ARL17B_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:08:19.786718
+Duodenum_ARL17B_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:01:59.694362
+Duodenum_ARL6IP1_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:02:01.815579
+Duodenum_ARL6IP4_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:02:03.998263
+Duodenum_ARMH3_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:13:02.288523
+Duodenum_ARPIN-AP3S2_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:02:11.288193
+Duodenum_ATAD2_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:17:42.671314
+Duodenum_ATAD3A_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T14:53:55.258977
+Duodenum_ATAD3B_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T14:53:50.674861
+Duodenum_ATF6B_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:03:01.583405
+Duodenum_ATG12_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:03:03.150526
+Duodenum_ATM_Male_66_2329.jpg,unusable,2329,Duodenum,original,expert,2026-07-23T13:03:08.174267
+Duodenum_ATP1B1_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:33:46.686998
+Duodenum_ATP2B1_Female_53_3413.jpg,usable,3413,Duodenum,original,expert,2026-07-23T13:03:14.175262
+Duodenum_ATP5IF1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:03:21.230943
+Duodenum_ATP5MC2_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:03:22.999129
+Duodenum_ATP5MG_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:23:11.383597
+Duodenum_ATP5PD_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:03:24.351052
+Duodenum_ATP6V1C2_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:49:14.538766
+Duodenum_ATP7A_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:03:25.870634
+Duodenum_ATP8B4_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:03:30.824083
+Duodenum_ATXN1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:03:32.674133
+Duodenum_ATXN7L3_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T15:04:06.088055
+Duodenum_AXIN2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:03:33.759682
+Duodenum_AZIN1_Male_35_3219.jpg,unusable,3219,Duodenum,topup_mining,expert,2026-08-02T15:01:11.993379
+Duodenum_AZIN1_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:17:05.558940
+Duodenum_B4GALT6_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:03:49.175993
+Duodenum_BAK1_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:03:51.310622
+Duodenum_BAX_Female_53_3413.jpg,unusable,3413,Duodenum,topup_mining,expert,2026-08-02T15:05:23.107006
+Duodenum_BBS12_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T14:53:20.111643
+Duodenum_BBS4_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:03:52.390897
+Duodenum_BBS4_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:04:06.143790
+Duodenum_BCAS1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:04:10.055606
+Duodenum_BCAS4_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:27:31.036038
+Duodenum_BCL2L15_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:04:13.873813
+Duodenum_BCL2L2-PABPN1_Female_48_75.jpg,unusable,75,Duodenum,topup_mining,expert,2026-08-02T14:50:45.020440
+Duodenum_BCL2L2-PABPN1_Male_73_64.jpg,usable,64,Duodenum,original,expert,2026-07-23T13:04:16.463552
+Duodenum_BCL2L2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:04:18.671636
+Duodenum_BCO2_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:49:17.243149
+Duodenum_BCO2_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:04:20.152216
+Duodenum_BCS1L_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:04:21.783839
+Duodenum_BDH1_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:04:23.495390
+Duodenum_BICDL2_Female_67_3479.jpg,unusable,3479,Duodenum,original,expert,2026-07-23T13:04:28.359830
+Duodenum_BICRA_Male_35_3219.jpg,unusable,3219,Duodenum,topup_mining,expert,2026-08-02T15:02:16.743209
+Duodenum_BIRC3_Male_66_2329.jpg,unusable,2329,Duodenum,original,expert,2026-07-23T13:04:42.304027
+Duodenum_BIRC6_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T14:31:47.906462
+Duodenum_BIVM-ERCC5_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:04:44.168101
+Duodenum_BLM_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T15:01:48.393481
+Duodenum_BLOC1S6_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:04:47.152134
+Duodenum_BLTP3B_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:04:49.551883
+Duodenum_BLTP3B_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:14:14.689383
+Duodenum_BMP1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:04:56.096211
+Duodenum_BMP2K_Male_54_2562.jpg,unusable,2562,Duodenum,topup_mining,expert,2026-08-02T15:07:51.176459
+Duodenum_BPNT2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:04:57.528332
+Duodenum_BRAP_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:02:31.923545
+Duodenum_BRD7_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T15:30:34.237248
+Duodenum_BTBD1_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T14:56:15.019660
+Duodenum_BTF3_Male_54_2562.jpg,unusable,2562,Duodenum,topup_mining,expert,2026-08-02T15:16:44.812821
+Duodenum_BUD13_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:05:03.175144
+Duodenum_BUD13_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:12:08.079415
+Duodenum_C11orf96_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:05:04.423807
+Duodenum_C12orf73_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:29:39.166406
+Duodenum_C17orf67_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:05:11.528157
+Duodenum_C18orf32_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:15:53.386834
+Duodenum_C19orf47_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:05:12.714126
+Duodenum_C19orf47_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:28:56.355989
+Duodenum_C1orf116_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:10:35.406318
+Duodenum_C1orf226_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:05:13.728186
+Duodenum_C1orf35_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:05:15.576506
+Duodenum_C20orf96_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:30:29.416360
+Duodenum_C20orf96_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:05:18.184942
+Duodenum_C2CD3_Female_62_3515.jpg,unusable,3515,Duodenum,original,expert,2026-07-23T13:06:41.498263
+Duodenum_C2orf68_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:06:43.545797
+Duodenum_C9orf64_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:06:44.424622
+Duodenum_C9orf72_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:06:45.578029
+Duodenum_C9orf85_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:50:26.497407
+Duodenum_CAB39L_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:06:47.721615
+Duodenum_CADPS_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:14:30.702105
+Duodenum_CALHM2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:06:49.043274
+Duodenum_CALML4_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:06:50.146093
+Duodenum_CALR_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T14:53:10.260011
+Duodenum_CALR_Male_73_1420.jpg,usable,1420,Duodenum,topup,expert,2026-07-28T17:01:15.264121
+Duodenum_CALR_Male_79_2650.jpg,unusable,2650,Duodenum,topup,expert,2026-07-28T17:01:19.224053
+Duodenum_CAPN9_Female_62_3515.jpg,usable,3515,Duodenum,topup_mining,expert,2026-08-02T15:00:08.884356
+Duodenum_CARD19_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:06:51.161684
+Duodenum_CARD6_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:06:52.825281
+Duodenum_CASK_Male_73_1420.jpg,usable,1420,Duodenum,topup,expert,2026-07-28T17:01:22.680411
+Duodenum_CASK_Male_79_2650.jpg,unusable,2650,Duodenum,topup,expert,2026-07-28T17:01:27.511222
+Duodenum_CASK_Male_84_139.jpg,usable,139,Duodenum,original,expert,2026-07-23T13:06:54.529051
+Duodenum_CASP4_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:07:24.386102
+Duodenum_CASP6_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:07:25.505987
+Duodenum_CASTOR2_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:07:27.170445
+Duodenum_CBFA2T3_Female_67_3479.jpg,unusable,3479,Duodenum,original,expert,2026-07-23T13:07:32.938230
+Duodenum_CBFA2T3_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:16:20.651069
+Duodenum_CCDC102B_Male_35_3219.jpg,unusable,3219,Duodenum,original,expert,2026-07-23T13:07:43.026182
+Duodenum_CCDC122_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:17:23.094888
+Duodenum_CCDC125_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:07:44.970217
+Duodenum_CCDC12_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:07:45.786058
+Duodenum_CCDC159_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:07:46.570008
+Duodenum_CCDC159_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:20:52.464398
+Duodenum_CCDC186_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:07:47.734710
+Duodenum_CCDC66_Female_61_3614.jpg,unusable,3614,Duodenum,original,expert,2026-07-23T13:07:50.129839
+Duodenum_CCDC68_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:07:56.618479
+Duodenum_CCDC85B_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:28:06.111012
+Duodenum_CCDC8_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:07:57.642679
+Duodenum_CCK_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T15:30:37.549711
+Duodenum_CCNA2_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T14:50:13.010406
+Duodenum_CCNA2_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:12:05.400868
+Duodenum_CCNB1_Male_63_1647.jpg,unusable,1647,Duodenum,topup_mining,expert,2026-08-02T15:30:43.254236
+Duodenum_CCNB1_Male_79_2650.jpg,usable,2650,Duodenum,topup,expert,2026-07-28T17:01:29.406541
+Duodenum_CCNDBP1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:08:01.138396
+Duodenum_CCNG1_Male_79_2650.jpg,usable,2650,Duodenum,topup,expert,2026-07-28T17:01:30.846908
+Duodenum_CCNL2_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:08:37.090174
+Duodenum_CCNT2_Female_53_3413.jpg,usable,3413,Duodenum,original,expert,2026-07-23T13:08:40.619455
+Duodenum_CCT6A_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:02:28.903745
+Duodenum_CCZ1B_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:12:02.554853
+Duodenum_CCZ1_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:08:53.186471
+Duodenum_CD248_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:08:55.338995
+Duodenum_CD248_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T14:52:32.780506
+Duodenum_CD44_Female_48_75.jpg,unusable,75,Duodenum,topup_mining,expert,2026-08-02T14:54:15.860761
+Duodenum_CD44_Male_63_1647.jpg,unusable,1647,Duodenum,topup_mining,expert,2026-08-02T15:30:41.865632
+Duodenum_CD44_Male_70_582.jpg,unusable,582,Duodenum,topup,expert,2026-07-28T17:01:54.871393
+Duodenum_CDAN1_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T14:59:06.074812
+Duodenum_CDC14A_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:51:14.425414
+Duodenum_CDC14A_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:08:58.667736
+Duodenum_CDC25C_Male_66_2329.jpg,unusable,2329,Duodenum,original,expert,2026-07-23T13:09:09.675382
+Duodenum_CDC42EP3_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:09:11.539541
+Duodenum_CDCA2_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:49:08.474940
+Duodenum_CDCA2_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:09:13.626381
+Duodenum_CDK11B_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T14:51:57.006309
+Duodenum_CDK12_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:09:15.803612
+Duodenum_CDK13_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:09:16.738685
+Duodenum_CDK16_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T14:33:40.466096
+Duodenum_CDK5RAP2_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:09:22.690961
+Duodenum_CDK6_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:19:03.913407
+Duodenum_CDKL1_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:09:24.844586
+Duodenum_CDKL1_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:09:37.948198
+Duodenum_CDKL5_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:09:40.070333
+Duodenum_CDKN2C_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:09:41.019869
+Duodenum_CDO1_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:09:42.475439
+Duodenum_CDS1_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:09:47.796164
+Duodenum_CDX1_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T14:51:05.217134
+Duodenum_CDYL_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:17:28.696520
+Duodenum_CENPV_Male_55_1920.jpg,unusable,1920,Duodenum,topup_mining,expert,2026-08-02T15:02:52.193099
+Duodenum_CEP295_Male_35_3219.jpg,unusable,3219,Duodenum,topup_mining,expert,2026-08-02T14:58:04.065588
+Duodenum_CEP70_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:09:04.156916
+Duodenum_CES1_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:02:22.844755
+Duodenum_CES2_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T14:50:21.323719
+Duodenum_CFL1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:09:51.195577
+Duodenum_CGGBP1_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:10:04.091843
+Duodenum_CGN_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:17:52.571900
+Duodenum_CHADL_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:10:06.231619
+Duodenum_CHAF1A_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:10:13.428160
+Duodenum_CHAT_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:49:50.966056
+Duodenum_CHAT_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:10:14.468775
+Duodenum_CHCHD1_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:10:16.140145
+Duodenum_CHCHD1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:10:19.699740
+Duodenum_CHCHD2_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:10:20.931895
+Duodenum_CHCHD2_Male_35_3219.jpg,unusable,3219,Duodenum,original,expert,2026-07-23T13:11:01.037015
+Duodenum_CHCHD3_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:11:04.292955
+Duodenum_CHD4_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:11:05.988649
+Duodenum_CHGA_Female_43_148.jpg,usable,148,Duodenum,original,expert,2026-07-23T13:11:07.508852
+Duodenum_CHGA_Male_63_1647.jpg,unusable,1647,Duodenum,topup_mining,expert,2026-08-02T14:50:24.577263
+Duodenum_CHGA_Male_70_582.jpg,unusable,582,Duodenum,topup,expert,2026-07-28T17:01:58.262256
+Duodenum_CHGB_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:11:08.700896
+Duodenum_CHMP4A_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:11:11.132271
+Duodenum_CHMP4A_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T15:15:41.352094
+Duodenum_CHTOP_Female_62_3515.jpg,usable,3515,Duodenum,topup_mining,expert,2026-08-02T14:53:32.186315
+Duodenum_CHTOP_Male_35_3219.jpg,unusable,3219,Duodenum,original,expert,2026-07-23T13:11:22.365140
+Duodenum_CHUK_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T14:49:48.995692
+Duodenum_CIR1_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:11:24.550310
+Duodenum_CISD1_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T15:17:00.102323
+Duodenum_CISD3_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:11:41.564531
+Duodenum_CISH_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:11:46.557459
+Duodenum_CISH_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:11:47.820855
+Duodenum_CKAP2L_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:12:37.965659
+Duodenum_CKAP4_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:00.663061
+Duodenum_CKAP4_Male_79_2650.jpg,usable,2650,Duodenum,topup,expert,2026-07-28T17:02:02.519017
+Duodenum_CLASP1_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:12:39.293144
+Duodenum_CLDN4_Male_66_2329.jpg,unusable,2329,Duodenum,original,expert,2026-07-23T13:12:47.390529
+Duodenum_CLIC1_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:21:54.045823
+Duodenum_CLPTM1_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T15:05:47.260672
+Duodenum_CLU_Female_48_75.jpg,usable,75,Duodenum,topup_mining,expert,2026-08-02T14:54:30.579328
+Duodenum_CLYBL_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:26:53.739775
+Duodenum_CMAS_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:12:50.157720
+Duodenum_CMIP_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:12:52.469447
+Duodenum_CMTM3_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:02:43.337265
+Duodenum_CNNM3_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:12:53.261298
+Duodenum_CNOT11_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:33:49.190772
+Duodenum_CNOT1_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:30:25.800492
+Duodenum_COG6_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:13:22.685836
+Duodenum_COL18A1_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T15:27:01.650170
+Duodenum_COPG1_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:13:28.254419
+Duodenum_COPG2_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:13:32.670166
+Duodenum_COPS4_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:10:53.672830
+Duodenum_COPS5_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:23:19.136872
+Duodenum_COPS9_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T14:54:12.621767
+Duodenum_COQ10B_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T14:56:46.426235
+Duodenum_COQ6_Female_67_3479.jpg,unusable,3479,Duodenum,original,expert,2026-07-23T13:13:35.478010
+Duodenum_COQ8B_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:16:15.764352
+Duodenum_CORO1C_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:13:37.535544
+Duodenum_CORO2A_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:13:38.661846
+Duodenum_CORO7_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:13:45.953622
+Duodenum_COX17_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:13:49.758173
+Duodenum_COX4I1_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:13:51.455572
+Duodenum_CPLANE1_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:21:58.710849
+Duodenum_CPNE3_Male_54_2562.jpg,unusable,2562,Duodenum,topup_mining,expert,2026-08-02T15:26:27.299455
+Duodenum_CPNE6_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:50:22.959640
+Duodenum_CPSF2_Male_54_2562.jpg,unusable,2562,Duodenum,topup_mining,expert,2026-08-02T14:56:22.658149
+Duodenum_CPSF6_Female_62_3515.jpg,usable,3515,Duodenum,topup_mining,expert,2026-08-02T14:59:41.907489
+Duodenum_CPSF6_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:14:05.478552
+Duodenum_CPSF7_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:14:07.254210
+Duodenum_CRBN_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:29:27.021168
+Duodenum_CREB1_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:01:04.373397
+Duodenum_CREBL2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:14:10.358090
+Duodenum_CRKL_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T14:52:37.664122
+Duodenum_CRK_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:14:12.486777
+Duodenum_CRTAP_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:14:13.614477
+Duodenum_CRY2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:14:17.598693
+Duodenum_CSTF3_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:14:31.823001
+Duodenum_CTCF_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:22:35.585946
+Duodenum_CTNNA1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:14:44.647361
+Duodenum_CTNNB1_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T15:06:09.679508
+Duodenum_CTNNB1_Male_73_1420.jpg,usable,1420,Duodenum,topup,expert,2026-07-28T17:02:04.751354
+Duodenum_CTNNB1_Male_79_2650.jpg,unusable,2650,Duodenum,topup,expert,2026-07-28T17:02:08.494793
+Duodenum_CTNNBIP1_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:14:45.566936
+Duodenum_CTSH_Male_79_2650.jpg,usable,2650,Duodenum,topup,expert,2026-07-28T17:02:10.271668
+Duodenum_CTSS_Female_75_1098.jpg,usable,1098,Duodenum,original,expert,2026-07-23T13:14:46.751818
+Duodenum_CTSS_Male_73_1420.jpg,usable,1420,Duodenum,topup,expert,2026-07-28T17:02:23.943714
+Duodenum_CTSS_Male_84_139.jpg,usable,139,Duodenum,topup_mining,expert,2026-08-02T15:06:38.822489
+Duodenum_CWC25_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:14:49.718616
+Duodenum_CYB5B_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T15:30:44.670332
+Duodenum_CYB5B_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:22:56.321718
+Duodenum_CYB5RL_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T15:07:03.751803
+Duodenum_CYP20A1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:15:24.670938
+Duodenum_CYP2R1_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T14:57:23.906090
+Duodenum_CYP2S1_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:15:25.687130
+Duodenum_CYP4F3_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:15:28.479564
+Duodenum_DAD1_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:15:35.002044
+Duodenum_DARS2_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:29:08.664579
+Duodenum_DCAF11_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:05:59.725291
+Duodenum_DCHS1_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T15:00:41.139042
+Duodenum_DCHS1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:15:39.776078
+Duodenum_DCLK1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:15:59.528179
+Duodenum_DCP1B_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:16:00.800950
+Duodenum_DCTN6_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:16:05.319237
+Duodenum_DDIT4_Male_54_2562.jpg,unusable,2562,Duodenum,topup_mining,expert,2026-08-02T15:02:13.090012
+Duodenum_DDX27_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:16:06.464036
+Duodenum_DDX28_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:16:07.655882
+Duodenum_DDX28_Male_55_1920.jpg,unusable,1920,Duodenum,topup_mining,expert,2026-08-02T14:59:59.563756
+Duodenum_DDX60_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:21:29.167549
+Duodenum_DEFA5_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:16:09.623359
+Duodenum_DEFA6_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:16:11.632128
+Duodenum_DELE1_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:28:02.101482
+Duodenum_DENND11_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:03:49.874532
+Duodenum_DENND2B_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T14:58:43.822930
+Duodenum_DENND2D_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:08:31.891961
+Duodenum_DERL1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:16:13.111793
+Duodenum_DERL3_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:16:14.327618
+Duodenum_DEXI_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:20:43.313641
+Duodenum_DEXI_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:16:16.707523
+Duodenum_DHDH_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:16:46.761152
+Duodenum_DHRS1_Female_48_75.jpg,unusable,75,Duodenum,topup_mining,expert,2026-08-02T14:55:19.152709
+Duodenum_DHRS1_Male_73_64.jpg,usable,64,Duodenum,original,expert,2026-07-23T13:16:55.664204
+Duodenum_DHX29_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:10:49.649327
+Duodenum_DHX38_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:16:39.721853
+Duodenum_DHX9_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:12:17.897963
+Duodenum_DKC1_Female_43_148.jpg,unusable,148,Duodenum,topup_mining,expert,2026-08-02T14:58:06.437524
+Duodenum_DKC1_Male_63_1647.jpg,unusable,1647,Duodenum,topup_mining,expert,2026-08-02T14:51:11.944606
+Duodenum_DKC1_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:26.415568
+Duodenum_DLGAP4_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:27:20.747598
+Duodenum_DLGAP4_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:19:49.098601
+Duodenum_DMBT1_Female_62_3515.jpg,usable,3515,Duodenum,topup_mining,expert,2026-08-02T15:24:28.938847
+Duodenum_DMXL1_Male_54_2562.jpg,unusable,2562,Duodenum,original,expert,2026-07-23T13:17:01.209023
+Duodenum_DNAJC21_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:17:14.232904
+Duodenum_DNAJC25_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:17:16.200629
+Duodenum_DNAJC3_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:17:34.376707
+Duodenum_DNAJC9_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:17:35.752897
+Duodenum_DNASE1_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T14:53:28.091025
+Duodenum_DNPH1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:17:37.808211
+Duodenum_DPEP1_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T14:49:54.626038
+Duodenum_DPEP2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:17:39.081608
+Duodenum_DSTYK_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:17:41.993980
+Duodenum_DTNB_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:17:43.113854
+Duodenum_DTWD1_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:17:44.480679
+Duodenum_DYNC2H1_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:04:55.803856
+Duodenum_DYNLRB1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:17:45.448381
+Duodenum_E4F1_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:59:15.890774
+Duodenum_EAF1_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T14:51:33.160036
+Duodenum_EBNA1BP2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:17:52.689161
+Duodenum_ECD_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:18:09.161461
+Duodenum_ECI1_Male_55_1920.jpg,unusable,1920,Duodenum,topup_mining,expert,2026-08-02T14:59:29.955597
+Duodenum_EDC3_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:18:11.673010
+Duodenum_EDEM2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:18:13.337965
+Duodenum_EEF1D_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:18:14.905432
+Duodenum_EEF1G_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:04:30.779137
+Duodenum_EEF2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:18:16.416933
+Duodenum_EFHD2_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:26:33.000467
+Duodenum_EFTUD2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:18:26.297383
+Duodenum_EID1_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T15:18:12.823305
+Duodenum_EID2_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:18:31.013717
+Duodenum_EIF1AD_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:24:32.612558
+Duodenum_EIF2AK2_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T14:59:48.522759
+Duodenum_EIF2AK3_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:17:11.380482
+Duodenum_EIF2B2_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:18:32.196184
+Duodenum_EIF3CL_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:11:10.414784
+Duodenum_EIF3F_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:18:20.479830
+Duodenum_EIF3I_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:18:33.953061
+Duodenum_EIF4EBP1_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T14:54:40.285237
+Duodenum_EIF5_Male_63_1647.jpg,unusable,1647,Duodenum,topup_mining,expert,2026-08-02T14:49:57.389436
+Duodenum_EIF6_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:18:36.946410
+Duodenum_ELAPOR1_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:18:39.273730
+Duodenum_ELAPOR1_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:05:05.969988
+Duodenum_ELF2_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:05:43.475291
+Duodenum_ELOB_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T14:51:23.976506
+Duodenum_ELOVL7_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:18:40.641816
+Duodenum_ELP4_Male_55_1920.jpg,unusable,1920,Duodenum,topup_mining,expert,2026-08-02T14:35:42.801609
+Duodenum_EMC3_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:27:44.315668
+Duodenum_EMC3_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:21:11.556059
+Duodenum_EMC8_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:27:28.702838
+Duodenum_EMC9_Female_61_3614.jpg,unusable,3614,Duodenum,original,expert,2026-07-23T13:18:50.865779
+Duodenum_EMID1_Female_48_75.jpg,unusable,75,Duodenum,topup_mining,expert,2026-08-02T14:53:57.338319
+Duodenum_ENDOD1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:18:52.658282
+Duodenum_ENPEP_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:08:55.604352
+Duodenum_ENSG00000111780_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:19:06.459782
+Duodenum_ENSG00000131152_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:19:08.210140
+Duodenum_ENSG00000262660_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:19:12.930340
+Duodenum_ENSG00000285304_Female_48_75.jpg,usable,75,Duodenum,topup_mining,expert,2026-08-02T14:55:03.395578
+Duodenum_ENSG00000285304_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:28.647799
+Duodenum_ENTPD6_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:27:58.668875
+Duodenum_EPCAM_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:04:38.824004
+Duodenum_EPS8_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:09:57.103336
+Duodenum_ERBB3_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:24:41.097749
+Duodenum_ERBIN_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:19:37.430074
+Duodenum_ERCC5_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:19:38.770496
+Duodenum_ERH_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:19:40.290560
+Duodenum_ERMAP_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:19:41.418571
+Duodenum_ERN2_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T14:50:52.271828
+Duodenum_ESF1_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:08:29.204945
+Duodenum_EXOC3L2_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:59:44.368494
+Duodenum_EXOC3L2_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:19:44.346564
+Duodenum_EXOC5_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:19:45.220724
+Duodenum_EXOC5_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:20:02.810640
+Duodenum_FABP6_Male_54_2562.jpg,unusable,2562,Duodenum,topup_mining,expert,2026-08-02T14:32:58.255104
+Duodenum_FAHD2A_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:20:06.692182
+Duodenum_FAM104B_Female_62_3515.jpg,unusable,3515,Duodenum,topup_mining,expert,2026-08-02T14:50:58.322231
+Duodenum_FAM174B_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:20:07.754794
+Duodenum_FAM234A_Male_59_1961.jpg,unusable,1961,Duodenum,original,expert,2026-07-23T13:20:11.963274
+Duodenum_FANCE_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:20:15.546846
+Duodenum_FANCE_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:20:17.259691
+Duodenum_FAR2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:20:18.355264
+Duodenum_FASTKD3_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:20:19.242350
+Duodenum_FASTKD3_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:20:20.910217
+Duodenum_FBH1_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:20:38.941958
+Duodenum_FBXO16_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:54:38.575775
+Duodenum_FBXW2_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:00:50.584427
+Duodenum_FBXW5_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:20:43.163368
+Duodenum_FBXW7_Female_62_3515.jpg,usable,3515,Duodenum,topup_mining,expert,2026-08-02T15:04:58.825398
+Duodenum_FCGBP_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:00:36.188633
+Duodenum_FER1L6_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:50:28.499763
+Duodenum_FGF19_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:23:05.350081
+Duodenum_FHIP2B_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:20:56.587836
+Duodenum_FKBP8_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:20:59.107057
+Duodenum_FLAD1_Male_35_3219.jpg,unusable,3219,Duodenum,topup_mining,expert,2026-08-02T15:00:30.107117
+Duodenum_FLAD1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:21:01.082365
+Duodenum_FLRT3_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:21:02.002728
+Duodenum_FLVCR2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:21:03.387035
+Duodenum_FMR1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:21:04.266435
+Duodenum_FOCAD_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:08:45.540436
+Duodenum_FOLH1_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T14:50:55.657002
+Duodenum_FOSL2_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:21:07.651949
+Duodenum_FOXJ2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:21:09.027679
+Duodenum_FOXK2_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:20:46.071261
+Duodenum_FRG1_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:34:27.359829
+Duodenum_FRG1_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:21:22.619734
+Duodenum_FRY_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:21:24.683462
+Duodenum_FUBP1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:21:26.275607
+Duodenum_FUT11_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:21:29.563890
+Duodenum_FXR1_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T15:30:36.551433
+Duodenum_FXR1_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:12:58.390925
+Duodenum_G6PC1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:21:34.947764
+Duodenum_GABARAPL2_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:21:36.723634
+Duodenum_GABRP_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:21:40.116133
+Duodenum_GAK_Male_54_2562.jpg,unusable,2562,Duodenum,original,expert,2026-07-23T13:21:50.460252
+Duodenum_GALC_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:21:53.100063
+Duodenum_GALK2_Female_67_3479.jpg,unusable,3479,Duodenum,original,expert,2026-07-23T13:22:01.604412
+Duodenum_GALNT11_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:22:05.124165
+Duodenum_GALNT12_Female_67_3479.jpg,unusable,3479,Duodenum,topup_mining,expert,2026-08-02T14:58:14.295316
+Duodenum_GALNT7_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:22:16.308743
+Duodenum_GAS1_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:22:17.389869
+Duodenum_GATA4_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:22:31.309121
+Duodenum_GATA6_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:22:33.932047
+Duodenum_GBP2_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T14:52:41.577876
+Duodenum_GBP2_Male_55_1920.jpg,unusable,1920,Duodenum,topup_mining,expert,2026-08-02T14:51:37.220615
+Duodenum_GBP4_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:22:47.388804
+Duodenum_GCHFR_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:22:50.958490
+Duodenum_GCSH_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:22:52.676713
+Duodenum_GDI1_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:14:34.330778
+Duodenum_GDPD5_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:22:53.499843
+Duodenum_GDPD5_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:26:58.934423
+Duodenum_GEMIN4_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:15:47.435959
+Duodenum_GID8_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:22:55.024103
+Duodenum_GIMAP1_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:22:56.484833
+Duodenum_GIPC1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:22:57.829166
+Duodenum_GIPC2_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:22:59.340400
+Duodenum_GJA4_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:23:22.829179
+Duodenum_GLI2_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T14:55:47.800587
+Duodenum_GLMN_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:23:24.405727
+Duodenum_GLOD5_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:23:25.196801
+Duodenum_GLP2R_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:23:26.037800
+Duodenum_GMCL1_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:23:31.949904
+Duodenum_GMCL2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:23:36.977646
+Duodenum_GMCL2_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:09:32.323826
+Duodenum_GMDS_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:23:39.420800
+Duodenum_GMEB1_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:22:48.144166
+Duodenum_GNA13_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:07:10.139236
+Duodenum_GNAT3_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:23:23.401931
+Duodenum_GNG12_Male_59_1961.jpg,unusable,1961,Duodenum,topup_mining,expert,2026-08-02T14:49:44.337234
+Duodenum_GOLGA4_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:23:46.997320
+Duodenum_GOLGA5_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:23:48.768978
+Duodenum_GOLGA8A_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:23:55.526236
+Duodenum_GORASP1_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:23:57.094137
+Duodenum_GPAT3_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:23:58.486563
+Duodenum_GPBP1_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:23:59.965512
+Duodenum_GPD2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:24:01.253398
+Duodenum_GPKOW_Female_48_75.jpg,usable,75,Duodenum,topup_mining,expert,2026-08-02T15:06:57.256925
+Duodenum_GPKOW_Male_63_1647.jpg,unusable,1647,Duodenum,original,expert,2026-07-23T13:24:04.005569
+Duodenum_GPKOW_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:30.854807
+Duodenum_GPN3_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:24:06.453485
+Duodenum_GPR155_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:22:04.132541
+Duodenum_GPR27_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:24:13.398577
+Duodenum_GPX2_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:24:14.686343
+Duodenum_GRK3_Female_48_75.jpg,usable,75,Duodenum,topup_mining,expert,2026-08-02T14:58:22.386194
+Duodenum_GRK3_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:33.217075
+Duodenum_GTF2B_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:24:15.836044
+Duodenum_GTF2E1_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T14:59:56.540653
+Duodenum_GTF2IRD1_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:24:34.214958
+Duodenum_GTPBP1_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:24:41.390467
+Duodenum_H1-0_Male_63_1647.jpg,unusable,1647,Duodenum,topup_mining,expert,2026-08-02T14:51:00.676240
+Duodenum_H1-2_Male_54_2562.jpg,unusable,2562,Duodenum,topup_mining,expert,2026-08-02T14:55:56.044731
+Duodenum_H1-3_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:21:16.778634
+Duodenum_H2AZ1_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:18:15.736043
+Duodenum_H2BC10_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:24:44.549988
+Duodenum_H2BC12L_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:24:46.613580
+Duodenum_H2BC17_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:24:50.438651
+Duodenum_H2BC6_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:24:56.966016
+Duodenum_H2BC6_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:25:00.134568
+Duodenum_H2BC7_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:25:04.624085
+Duodenum_H2BC9_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:25:06.526678
+Duodenum_H3-3A_Male_54_2562.jpg,unusable,2562,Duodenum,topup_mining,expert,2026-08-02T14:51:27.040576
+Duodenum_H3-3B_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:27:38.521519
+Duodenum_H3C11_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:25:28.589860
+Duodenum_H3C12_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:25:30.774287
+Duodenum_H3C13_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:25:33.294664
+Duodenum_H3C15_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:25:35.063032
+Duodenum_H3C4_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:25:41.464038
+Duodenum_H4C11_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:25:45.366047
+Duodenum_H4C12_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:25:48.430887
+Duodenum_H4C16_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:25:50.167099
+Duodenum_H4C4_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:25:53.591073
+Duodenum_H4C9_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:25:56.695522
+Duodenum_H6PD_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:13:40.277354
+Duodenum_HADH_Male_35_3219.jpg,unusable,3219,Duodenum,topup_mining,expert,2026-08-02T14:58:54.323194
+Duodenum_HADH_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:26:00.318783
+Duodenum_HAUS3_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:26:04.110953
+Duodenum_HAUS8_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:10:40.304425
+Duodenum_HAUS8_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:02:58.071783
+Duodenum_HAX1_Male_55_1920.jpg,unusable,1920,Duodenum,topup_mining,expert,2026-08-02T15:06:07.055415
+Duodenum_HBP1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:26:05.086693
+Duodenum_HDAC4_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:26:09.511053
+Duodenum_HDAC9_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:26:11.622175
+Duodenum_HDGFL2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:26:13.431271
+Duodenum_HDHD2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:26:15.279520
+Duodenum_HEY2_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T15:20:57.570196
+Duodenum_HIBCH_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:26:17.507767
+Duodenum_HID1_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:51:12.991293
+Duodenum_HIGD2A_Male_35_3219.jpg,unusable,3219,Duodenum,original,expert,2026-07-23T13:26:20.863982
+Duodenum_HIRA_Female_62_3515.jpg,usable,3515,Duodenum,original,expert,2026-07-23T13:26:23.630819
+Duodenum_HIVEP1_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:17:33.770832
+Duodenum_HKDC1_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T15:30:45.635508
+Duodenum_HKDC1_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:26:26.679343
+Duodenum_HMGA1_Female_61_3614.jpg,unusable,3614,Duodenum,topup_mining,expert,2026-08-02T14:50:30.396994
+Duodenum_HMGN5_Male_63_1647.jpg,unusable,1647,Duodenum,topup_mining,expert,2026-08-02T14:34:03.165040
+Duodenum_HMOX1_Male_73_64.jpg,usable,64,Duodenum,original,expert,2026-07-23T13:26:39.992554
+Duodenum_HNF1A_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:26:43.823753
+Duodenum_HNF4A_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:26:44.687115
+Duodenum_HNRNPA1_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T14:52:10.400439
+Duodenum_HNRNPA3_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:27:10.903295
+Duodenum_HNRNPC_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:27:12.127872
+Duodenum_HNRNPL_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:27:21.007799
+Duodenum_HNRNPUL1_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:17:37.171747
+Duodenum_HNRNPU_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:11:17.289555
+Duodenum_HOPX_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:17:56.786037
+Duodenum_HOPX_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T14:59:12.958814
+Duodenum_HPCAL1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:27:24.959911
+Duodenum_HPRT1_Female_53_3413.jpg,unusable,3413,Duodenum,topup_mining,expert,2026-08-02T14:56:34.570249
+Duodenum_HPS1_Male_59_1961.jpg,usable,1961,Duodenum,original,expert,2026-07-23T13:27:26.015530
+Duodenum_HSD11B2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:27:27.303799
+Duodenum_HSD11B2_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:27:30.127618
+Duodenum_HSD17B7_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:27:41.872346
+Duodenum_HSP90B1_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:27:45.016510
+Duodenum_HSPA12B_Male_54_2562.jpg,unusable,2562,Duodenum,original,expert,2026-07-23T13:27:54.815598
+Duodenum_HSPA5_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T14:54:37.322721
+Duodenum_HSPA9_Male_63_1647.jpg,unusable,1647,Duodenum,original,expert,2026-07-23T13:28:12.272912
+Duodenum_HSPE1-MOB4_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T14:56:06.004369
+Duodenum_HTATSF1_Male_63_1647.jpg,unusable,1647,Duodenum,topup_mining,expert,2026-08-02T14:34:16.694893
+Duodenum_HTD2_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:09:37.783453
+Duodenum_ICA1L_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:28:18.793750
+Duodenum_ICOSLG_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:28:21.440995
+Duodenum_IDH2_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:28:23.199255
+Duodenum_IDS_Female_67_3479.jpg,usable,3479,Duodenum,topup_mining,expert,2026-08-02T15:08:12.338953
+Duodenum_IFI30_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:28:24.480816
+Duodenum_IFI35_Female_67_3479.jpg,usable,3479,Duodenum,original,expert,2026-07-23T13:28:25.664583
+Duodenum_IFIH1_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:28:26.536675
+Duodenum_IFT22_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:28:37.048909
+Duodenum_IFT80_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:12:13.991770
+Duodenum_IFTAP_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:28:37.992566
+Duodenum_IGBP1_Female_48_75.jpg,unusable,75,Duodenum,topup_mining,expert,2026-08-02T14:51:10.084775
+Duodenum_IL18_Male_66_2329.jpg,usable,2329,Duodenum,topup_mining,expert,2026-08-02T15:09:44.738733
+Duodenum_ILKAP_Male_66_2329.jpg,usable,2329,Duodenum,original,expert,2026-07-23T13:28:42.985165
+Duodenum_ILVBL_Male_59_1961.jpg,usable,1961,Duodenum,topup_mining,expert,2026-08-02T15:14:11.715532
+Duodenum_IMPDH2_Male_66_2329.jpg,unusable,2329,Duodenum,topup_mining,expert,2026-08-02T14:49:02.100503
+Duodenum_INPP5A_Male_54_2562.jpg,usable,2562,Duodenum,original,expert,2026-07-23T13:28:44.064082
+Duodenum_INTS10_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:28:46.545363
+Duodenum_INTS8_Male_55_1920.jpg,usable,1920,Duodenum,topup_mining,expert,2026-08-02T15:27:25.931597
+Duodenum_IRF2BP2_Male_35_3219.jpg,usable,3219,Duodenum,topup_mining,expert,2026-08-02T14:32:36.180916
+Duodenum_ISCA1_Male_55_1920.jpg,usable,1920,Duodenum,original,expert,2026-07-23T13:28:49.585611
+Duodenum_ISCA2_Male_35_3219.jpg,usable,3219,Duodenum,original,expert,2026-07-23T13:28:51.072949
+Duodenum_ISCU_Male_54_2562.jpg,usable,2562,Duodenum,topup_mining,expert,2026-08-02T15:10:44.872858
+Duodenum_ITGA11_Male_55_1920.jpg,unusable,1920,Duodenum,original,expert,2026-07-23T13:28:59.561375
+Duodenum_KDM6A_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:35.095566
+Duodenum_KTN1_Male_73_1420.jpg,usable,1420,Duodenum,topup,expert,2026-07-28T17:02:40.303292
+Duodenum_MAX_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:42.287950
+Duodenum_MGAM_Male_73_1420.jpg,usable,1420,Duodenum,topup,expert,2026-07-28T17:02:44.223718
+Duodenum_RNF113A_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:46.796306
+Duodenum_SAFB_Male_73_1420.jpg,usable,1420,Duodenum,topup,expert,2026-07-28T17:02:51.735989
+Duodenum_SH3BP1_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:54.423965
+Duodenum_SP1_Male_70_582.jpg,usable,582,Duodenum,topup,expert,2026-07-28T17:02:56.191739
+"Small_intestine,_NOS_ACACA_Female_71_3004.jpg",usable,3004,Small intestine NOS,original,expert,2026-07-23T13:29:04.048768
+"Small_intestine,_NOS_ANKRD37_Female_71_3004.jpg",usable,3004,Small intestine NOS,original,expert,2026-07-23T13:29:05.601499
+"Small_intestine,_NOS_ARHGAP6_Female_71_3004.jpg",usable,3004,Small intestine NOS,original,expert,2026-07-23T13:29:06.488550
+"Small_intestine,_NOS_B4GALT1_Female_71_3004.jpg",usable,3004,Small intestine NOS,original,expert,2026-07-23T13:29:07.689492
+"Small_intestine,_NOS_C8orf44-SGK3_Female_71_3004.jpg",usable,3004,Small intestine NOS,topup_mining,expert,2026-08-02T15:27:34.696539
+"Small_intestine,_NOS_CCT3_Female_71_3004.jpg",usable,3004,Small intestine NOS,original,expert,2026-07-23T13:29:09.577781
+"Small_intestine,_NOS_DCLK1_Female_71_3004.jpg",usable,3004,Small intestine NOS,original,expert,2026-07-23T13:29:11.784866
+"Small_intestine,_NOS_DDX49_Female_71_3004.jpg",usable,3004,Small intestine NOS,original,expert,2026-07-23T13:29:13.688831
+"Small_intestine,_NOS_DNPEP_Female_71_3004.jpg",usable,3004,Small intestine NOS,original,expert,2026-07-23T13:29:15.921476
+"Small_intestine,_NOS_GYS1_Female_71_3004.jpg",usable,3004,Small intestine NOS,original,expert,2026-07-23T13:29:18.873007
+Small_intestine_A1CF_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:02:58.503806
+Small_intestine_AACS_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:03:07.351679
+Small_intestine_AAGAB_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:03:10.680191
+Small_intestine_AAGAB_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:03:13.496358
+Small_intestine_AARS2_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:03:18.327933
+Small_intestine_AASDH_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:03:21.447917
+Small_intestine_AASS_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:03:22.640577
+Small_intestine_AATF_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:03:24.049278
+Small_intestine_ABCA5_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:03:27.968039
+Small_intestine_ABCA9_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:03:30.623889
+Small_intestine_ABCA9_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:03:37.780315
+Small_intestine_ABCD3_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:03:42.856897
+Small_intestine_ABCD3_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:03:54.525652
+Small_intestine_ABCD3_Female_90_4380.jpg,unusable,4380,Small intestine,topup,expert,2026-07-28T17:04:21.873037
+Small_intestine_ABCD3_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:04:24.848888
+Small_intestine_ABCE1_Female_84_2256.jpg,unusable,2256,Small intestine,topup,expert,2026-07-28T17:05:14.793724
+Small_intestine_ABCF1_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:05:17.042105
+Small_intestine_ABCF3_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:05:22.385418
+Small_intestine_ABCG2_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:05:23.683383
+Small_intestine_ABCG2_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:05:26.481692
+Small_intestine_ABCG8_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:05:27.994637
+Small_intestine_ABHD10_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:05:30.531488
+Small_intestine_ABHD18_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:05:34.329650
+Small_intestine_ABHD18_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:05:36.881646
+Small_intestine_ABHD2_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:05:44.833824
+Small_intestine_ABHD8_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:06:02.842127
+Small_intestine_ABR_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:06:05.810786
+Small_intestine_ABR_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:06:11.417978
+Small_intestine_ACAA2_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:06:16.809805
+Small_intestine_ACAA2_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:06:18.826421
+Small_intestine_ACACA_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:06:31.411360
+Small_intestine_ACACA_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:06:33.471868
+Small_intestine_ACAD8_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:06:40.978374
+Small_intestine_ACAD8_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:06:42.707062
+Small_intestine_ACAD8_Male_68_2471.jpg,unusable,2471,Small intestine,topup,expert,2026-07-28T17:07:54.140045
+Small_intestine_ACAD9_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:07:56.933215
+Small_intestine_ACADM_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:07:59.363194
+Small_intestine_ACADM_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:08:02.515448
+Small_intestine_ACADSB_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:08:14.141484
+Small_intestine_ACADSB_Female_84_2256.jpg,unusable,2256,Small intestine,topup,expert,2026-07-28T17:08:27.531900
+Small_intestine_ACADS_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:08:30.484281
+Small_intestine_ACADVL_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:08:33.363617
+Small_intestine_ACAP2_Female_64_2450.jpg,usable,2450,Small intestine,topup,expert,2026-07-28T17:08:38.931804
+Small_intestine_ACAP3_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:08:48.684632
+Small_intestine_ACAP3_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:09:02.771838
+Small_intestine_ACAT1_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:09:05.836056
+Small_intestine_ACBD3_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:09:07.340370
+Small_intestine_ACBD4_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:09:08.851963
+Small_intestine_ACBD5_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:09:12.933263
+Small_intestine_ACE2_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:09:16.683817
+Small_intestine_ACE2_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:09:18.795814
+Small_intestine_ACE_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:09:20.435994
+Small_intestine_ACE_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:09:22.339720
+Small_intestine_ACO1_Female_84_2256.jpg,usable,2256,Small intestine,topup,expert,2026-07-28T17:09:25.300363
+Small_intestine_ACO2_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:09:27.819846
+Small_intestine_ACSL1_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:09:29.964273
+Small_intestine_ACSL1_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:09:31.788558
+Small_intestine_ACSL1_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:09:33.788252
+Small_intestine_ACSL5_Female_68_3852.jpg,usable,3852,Small intestine,topup,expert,2026-07-28T17:09:37.749322
+Small_intestine_ACSL5_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:09:40.908693
+Small_intestine_ACSL5_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:09:43.181122
+Small_intestine_ACSL6_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:09:45.532679
+Small_intestine_ACSL6_Female_90_4380.jpg,usable,4380,Small intestine,topup,expert,2026-07-28T17:10:08.828877
+Small_intestine_ACSL6_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:10:13.021602
+Small_intestine_ACTA1_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:10:18.949395
+Small_intestine_ACTA1_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:10:21.005714
+Small_intestine_ACTA1_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:10:58.420541
+Small_intestine_ACTA1_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:11:02.925856
+Small_intestine_ACTA2_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:11:08.349588
+Small_intestine_ACTA2_Female_51_202.jpg,unusable,202,Small intestine,topup,expert,2026-07-28T17:11:12.671634
+Small_intestine_ACTA2_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:11:23.189852
+Small_intestine_ACTA2_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:11:25.173573
+Small_intestine_ACTA2_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:11:27.750194
+Small_intestine_ACTBL2_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:11:37.637650
+Small_intestine_ACTB_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:11:39.966203
+Small_intestine_ACTB_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:11:42.039951
+Small_intestine_ACTC1_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:11:47.909842
+Small_intestine_ACTG1_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:11:49.878914
+Small_intestine_ACTG2_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:11:51.454322
+Small_intestine_ACTN1_Male_71_2411.jpg,usable,2411,Small intestine,topup,expert,2026-07-28T17:11:53.598025
+Small_intestine_ACY3_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:11:56.885935
+Small_intestine_ADH6_Female_44_1800.jpg,unusable,1800,Small intestine,topup,expert,2026-07-28T17:12:01.829445
+Small_intestine_ADH6_Female_90_4380.jpg,usable,4380,Small intestine,topup,expert,2026-07-28T17:12:05.614568
+Small_intestine_ADH6_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:12:07.366214
+Small_intestine_ADM_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:12:10.134200
+Small_intestine_ADM_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:12:12.343389
+Small_intestine_ADNP_Male_41_2226.jpg,usable,2226,Small intestine,original,expert,2026-07-23T13:29:20.466720
+Small_intestine_ADORA2A_Female_44_1800.jpg,unusable,1800,Small intestine,topup,expert,2026-07-28T17:12:43.278859
+Small_intestine_ADORA2A_Female_90_4380.jpg,unusable,4380,Small intestine,topup,expert,2026-07-28T17:12:52.854950
+Small_intestine_ADORA2A_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:12:56.117881
+Small_intestine_ADPGK_Male_68_2471.jpg,usable,2471,Small intestine,topup,expert,2026-07-28T17:13:10.863224
+Small_intestine_ADSL_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:13:20.062831
+Small_intestine_ADSL_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:13:38.367389
+Small_intestine_AGPAT1_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:14:00.015300
+Small_intestine_AGTPBP1_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:14:02.463926
+Small_intestine_AGTPBP1_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:14:06.135524
+Small_intestine_AGTPBP1_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:14:07.863777
+Small_intestine_AIP_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:14:11.751529
+Small_intestine_AK3_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:14:16.167338
+Small_intestine_AK5_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:14:21.847296
+Small_intestine_AK5_Female_90_4380.jpg,usable,4380,Small intestine,topup,expert,2026-07-28T17:14:32.505434
+Small_intestine_AK5_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:14:34.799713
+Small_intestine_AK5_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:14:36.215564
+Small_intestine_AK7_Male_41_2226.jpg,unusable,2226,Small intestine,topup_mining,expert,2026-08-02T14:32:18.190022
+Small_intestine_AKAP8_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:14:38.055662
+Small_intestine_AKR1B10_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:14:47.504304
+Small_intestine_AKR1C1_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:14:51.135108
+Small_intestine_AKR1C1_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:14:52.720996
+Small_intestine_AKR1C3_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:14:53.999988
+Small_intestine_AKR1C3_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:14:55.296643
+Small_intestine_ALDH1B1_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:14:56.815994
+Small_intestine_ALDH1B1_Female_90_4380.jpg,usable,4380,Small intestine,topup,expert,2026-07-28T17:15:43.159914
+Small_intestine_ALDH1B1_Male_66_4202.jpg,usable,4202,Small intestine,topup,expert,2026-07-28T17:15:44.368224
+Small_intestine_ALDH4A1_Female_44_1800.jpg,usable,1800,Small intestine,topup,expert,2026-07-28T17:15:46.240355
+Small_intestine_ALDOB_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:16:06.753758
+Small_intestine_ALDOB_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:16:49.412559
+Small_intestine_ALDOB_Male_79_2650.jpg,usable,2650,Small intestine,topup,expert,2026-07-28T17:16:54.129047
+Small_intestine_ALG1_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:16:59.857359
+Small_intestine_ALPG_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:17:04.704839
+Small_intestine_ALPI_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:17:06.321264
+Small_intestine_ALPP_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:17:09.169025
+Small_intestine_AMN_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:17:12.225422
+Small_intestine_AMN_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:17:16.505376
+Small_intestine_AMN_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:17:18.521691
+Small_intestine_ANLN_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:17:20.809485
+Small_intestine_ANXA13_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:17:23.065704
+Small_intestine_API5_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:17:25.937266
+Small_intestine_APOA4_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:17:33.857686
+Small_intestine_APPBP2_Male_37_1652.jpg,usable,1652,Small intestine,original,expert,2026-07-23T13:29:25.857783
+Small_intestine_APTX_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:17:36.353972
+Small_intestine_AQP10_Female_56_1499.jpg,usable,1499,Small intestine,topup,expert,2026-07-28T17:17:40.681646
+Small_intestine_AQP1_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:17:42.641719
+Small_intestine_ARFIP1_Male_26_3472.jpg,usable,3472,Small intestine,topup,expert,2026-07-28T17:17:47.201973
+Small_intestine_ARG2_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:17:50.841962
+Small_intestine_ARG2_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:18:01.810143
+Small_intestine_ARG2_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:18:16.229868
+Small_intestine_ARHGAP8_Female_90_4380.jpg,unusable,4380,Small intestine,topup,expert,2026-07-28T17:18:43.442947
+Small_intestine_ARHGEF10L_Male_Unknown_1359.jpg,unusable,1359,Small intestine,topup,expert,2026-07-28T17:18:57.931950
+Small_intestine_ATF7IP_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:19:56.283518
+Small_intestine_ATXN3_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:20:03.699466
+Small_intestine_B4GALT7_Female_90_4380.jpg,usable,4380,Small intestine,topup,expert,2026-07-28T17:20:17.123870
+Small_intestine_BAIAP2L1_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:20:23.651916
+Small_intestine_BCL2L2-PABPN1_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:20:26.212003
+Small_intestine_BCL2L2-PABPN1_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:20:29.123941
+Small_intestine_BCL2L2-PABPN1_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:20:31.579759
+Small_intestine_BRPF3_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:20:34.171686
+Small_intestine_C17orf49_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:20:38.084002
+Small_intestine_C1orf54_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:20:41.708652
+Small_intestine_C9orf72_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:20:50.428828
+Small_intestine_CAB39L_Female_90_4380.jpg,unusable,4380,Small intestine,topup,expert,2026-07-28T17:20:58.308780
+Small_intestine_CALR_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:21:01.250469
+Small_intestine_CALR_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:21:03.292215
+Small_intestine_CALR_Male_79_2650.jpg,usable,2650,Small intestine,topup,expert,2026-07-28T17:21:05.340208
+Small_intestine_CANT1_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:21:08.252711
+Small_intestine_CASK_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:21:10.667812
+Small_intestine_CASK_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:21:12.293007
+Small_intestine_CASK_Male_79_2650.jpg,usable,2650,Small intestine,topup,expert,2026-07-28T17:21:13.892240
+Small_intestine_CASP6_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:21:15.764340
+Small_intestine_CBR1_Female_90_4380.jpg,unusable,4380,Small intestine,topup,expert,2026-07-28T17:21:39.884458
+Small_intestine_CCNB1_Female_51_202.jpg,unusable,202,Small intestine,topup,expert,2026-07-28T17:21:48.870895
+Small_intestine_CCNB1_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:21:53.644670
+Small_intestine_CCNG1_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:22:01.069351
+Small_intestine_CCNG1_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:22:26.708719
+Small_intestine_CD44_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:22:29.748563
+Small_intestine_CD44_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:22:36.479010
+Small_intestine_CD44_Male_1_493.jpg,unusable,493,Small intestine,topup,expert,2026-07-28T17:23:07.590241
+Small_intestine_CDCA5_Female_90_4380.jpg,usable,4380,Small intestine,topup,expert,2026-07-28T17:23:12.021939
+Small_intestine_CDCA5_Male_Unknown_1359.jpg,usable,1359,Small intestine,topup,expert,2026-07-28T17:23:37.373410
+Small_intestine_CDS1_Female_90_4380.jpg,unusable,4380,Small intestine,topup,expert,2026-07-28T17:23:51.333871
+Small_intestine_CHCHD10_Male_41_2226.jpg,unusable,2226,Small intestine,topup_mining,expert,2026-08-02T14:34:25.857951
+Small_intestine_CHGA_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:23:53.758363
+Small_intestine_CHGA_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:23:57.405784
+Small_intestine_CHGA_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:24:05.357669
+Small_intestine_CKAP4_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:24:07.246125
+Small_intestine_CKAP4_Female_51_202.jpg,usable,202,Small intestine,topup,expert,2026-07-28T17:24:09.349449
+Small_intestine_CKAP4_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:24:15.678340
+Small_intestine_CKAP4_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:24:31.566703
+Small_intestine_CKAP4_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:24:38.543261
+Small_intestine_CLU_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:24:45.551263
+Small_intestine_CLU_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:24:48.822443
+Small_intestine_CTNNB1_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:24:50.662470
+Small_intestine_CTNNB1_Male_79_2650.jpg,usable,2650,Small intestine,topup,expert,2026-07-28T17:24:53.950532
+Small_intestine_CTSB_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:24:56.206935
+Small_intestine_CTSB_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:24:58.454531
+Small_intestine_CTSH_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:25:01.590507
+Small_intestine_CTSS_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:25:03.143565
+Small_intestine_CYB561D2_Male_37_1652.jpg,usable,1652,Small intestine,original,expert,2026-07-23T13:29:27.785394
+Small_intestine_DHRS1_Female_37_29.jpg,usable,29,Small intestine,topup,expert,2026-07-28T17:25:05.438737
+Small_intestine_DHRS1_Male_1_493.jpg,usable,493,Small intestine,topup,expert,2026-07-28T17:25:14.647106
+Small_intestine_DKC1_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:25:17.990839
+Small_intestine_DKC1_Male_1_493.jpg,unusable,493,Small intestine,topup,expert,2026-07-28T17:25:27.951038
+Small_intestine_EIF5_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:25:30.870822
+Small_intestine_ENSG00000271254_Male_7_1826.jpg,usable,1826,Small intestine,topup_mining,expert,2026-08-02T15:20:11.403519
+Small_intestine_ENSG00000285304_Female_69_133.jpg,unusable,133,Small intestine,topup,expert,2026-07-28T17:25:38.991377
+Small_intestine_EPCAM_Male_41_2226.jpg,usable,2226,Small intestine,original,expert,2026-07-23T13:29:30.048733
+Small_intestine_GIPC2_Male_70_1919.jpg,usable,1919,Small intestine,original,expert,2026-07-23T13:29:32.017734
+Small_intestine_GPANK1_Male_41_2226.jpg,usable,2226,Small intestine,topup_mining,expert,2026-08-02T15:07:18.225420
+Small_intestine_H1-0_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:25:41.391322
+Small_intestine_HSPA9_Male_59_969.jpg,usable,969,Small intestine,topup,expert,2026-07-28T17:25:44.823916
+Small_intestine_ISY1-RAB43_Male_41_2226.jpg,unusable,2226,Small intestine,original,expert,2026-07-23T13:29:36.720629
+Small_intestine_ISY1_Male_41_2226.jpg,unusable,2226,Small intestine,topup_mining,expert,2026-08-02T14:34:23.620124
+Small_intestine_KDM6A_Female_69_133.jpg,unusable,133,Small intestine,topup,expert,2026-07-28T17:25:47.863266
+Small_intestine_KRT18_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:25:50.439214
+Small_intestine_KRT19_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:25:52.208182
+Small_intestine_KRT20_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:25:53.735558
+Small_intestine_LYZ_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:25:55.119608
+Small_intestine_MAX_Female_69_133.jpg,usable,133,Small intestine,topup,expert,2026-07-28T17:25:57.175327

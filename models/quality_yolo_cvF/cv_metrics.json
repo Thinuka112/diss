@@ -1,0 +1,341 @@
+{
+  "task": "yolov8s_cls_armF_combined_donor_grouped_cv_foldmatched_armB",
+  "config": {
+    "model": "yolov8s-cls (ultralytics as shipped)",
+    "imgsz": 640,
+    "batch": 16,
+    "epochs_max": 40,
+    "patience": 12,
+    "seed": 42,
+    "oversample": "train unusable x8",
+    "image_cache": "1024px sources",
+    "csv": "combined_human_s2usable_20260828.csv",
+    "folds": "Arm B test-donor partition; test = human rows only"
+  },
+  "aggregate": {
+    "macro_f1": [
+      0.8152,
+      0.0377
+    ],
+    "tuned_macro_f1": [
+      0.8159,
+      0.057
+    ],
+    "accuracy": [
+      0.8822,
+      0.023
+    ],
+    "tuned_accuracy": [
+      0.8811,
+      0.0342
+    ],
+    "auc": [
+      0.9082,
+      0.0393
+    ],
+    "recall_unusable": [
+      0.7509,
+      0.0553
+    ],
+    "confusion_summed": [
+      [
+        121,
+        42
+      ],
+      [
+        60,
+        624
+      ]
+    ],
+    "confusion_summed_tuned": [
+      [
+        124,
+        39
+      ],
+      [
+        64,
+        620
+      ]
+    ],
+    "mean_delta_vs_armB_argmax": 0.0111,
+    "mean_delta_vs_armB_tuned": -0.0039
+  },
+  "armB_reference": {
+    "argmax_macro_f1": [
+      0.7876,
+      0.7765,
+      0.8341,
+      0.8042,
+      0.8183
+    ],
+    "tuned_macro_f1": [
+      0.7842,
+      0.7733,
+      0.8876,
+      0.7788,
+      0.8755
+    ]
+  },
+  "per_fold": [
+    {
+      "macro_f1": 0.8167,
+      "accuracy": 0.8716,
+      "auc": 0.8761,
+      "recall": {
+        "unusable": 0.75,
+        "usable": 0.9052
+      },
+      "precision": {
+        "unusable": 0.6857,
+        "usable": 0.9292
+      },
+      "confusion_matrix": [
+        [
+          24,
+          8
+        ],
+        [
+          11,
+          105
+        ]
+      ],
+      "n_test": 148,
+      "fold": 1,
+      "tuned": {
+        "macro_f1": 0.7909,
+        "accuracy": 0.8446,
+        "auc": 0.8761,
+        "recall": {
+          "unusable": 0.7812,
+          "usable": 0.8621
+        },
+        "precision": {
+          "unusable": 0.6098,
+          "usable": 0.9346
+        },
+        "confusion_matrix": [
+          [
+            25,
+            7
+          ],
+          [
+            16,
+            100
+          ]
+        ],
+        "n_test": 148,
+        "threshold": 0.667
+      },
+      "delta_vs_armB_argmax": 0.0291,
+      "delta_vs_armB_tuned": 0.0067
+    },
+    {
+      "macro_f1": 0.7499,
+      "accuracy": 0.8455,
+      "auc": 0.8522,
+      "recall": {
+        "unusable": 0.7143,
+        "usable": 0.8703
+      },
+      "precision": {
+        "unusable": 0.5102,
+        "usable": 0.9415
+      },
+      "confusion_matrix": [
+        [
+          25,
+          10
+        ],
+        [
+          24,
+          161
+        ]
+      ],
+      "n_test": 220,
+      "fold": 2,
+      "tuned": {
+        "macro_f1": 0.7238,
+        "accuracy": 0.8455,
+        "auc": 0.8522,
+        "recall": {
+          "unusable": 0.5714,
+          "usable": 0.8973
+        },
+        "precision": {
+          "unusable": 0.5128,
+          "usable": 0.9171
+        },
+        "confusion_matrix": [
+          [
+            20,
+            15
+          ],
+          [
+            19,
+            166
+          ]
+        ],
+        "n_test": 220,
+        "threshold": 0.187
+      },
+      "delta_vs_armB_argmax": -0.0266,
+      "delta_vs_armB_tuned": -0.0495
+    },
+    {
+      "macro_f1": 0.8471,
+      "accuracy": 0.915,
+      "auc": 0.9478,
+      "recall": {
+        "unusable": 0.7037,
+        "usable": 0.9603
+      },
+      "precision": {
+        "unusable": 0.7917,
+        "usable": 0.938
+      },
+      "confusion_matrix": [
+        [
+          19,
+          8
+        ],
+        [
+          5,
+          121
+        ]
+      ],
+      "n_test": 153,
+      "fold": 3,
+      "tuned": {
+        "macro_f1": 0.8936,
+        "accuracy": 0.9346,
+        "auc": 0.9478,
+        "recall": {
+          "unusable": 0.8889,
+          "usable": 0.9444
+        },
+        "precision": {
+          "unusable": 0.7742,
+          "usable": 0.9754
+        },
+        "confusion_matrix": [
+          [
+            24,
+            3
+          ],
+          [
+            7,
+            119
+          ]
+        ],
+        "n_test": 153,
+        "threshold": 0.741
+      },
+      "delta_vs_armB_argmax": 0.013,
+      "delta_vs_armB_tuned": 0.006
+    },
+    {
+      "macro_f1": 0.8055,
+      "accuracy": 0.8874,
+      "auc": 0.9524,
+      "recall": {
+        "unusable": 0.8571,
+        "usable": 0.8923
+      },
+      "precision": {
+        "unusable": 0.5625,
+        "usable": 0.9748
+      },
+      "confusion_matrix": [
+        [
+          18,
+          3
+        ],
+        [
+          14,
+          116
+        ]
+      ],
+      "n_test": 151,
+      "fold": 4,
+      "tuned": {
+        "macro_f1": 0.8231,
+        "accuracy": 0.9007,
+        "auc": 0.9524,
+        "recall": {
+          "unusable": 0.8571,
+          "usable": 0.9077
+        },
+        "precision": {
+          "unusable": 0.6,
+          "usable": 0.9752
+        },
+        "confusion_matrix": [
+          [
+            18,
+            3
+          ],
+          [
+            12,
+            118
+          ]
+        ],
+        "n_test": 151,
+        "threshold": 0.449
+      },
+      "delta_vs_armB_argmax": 0.0013,
+      "delta_vs_armB_tuned": 0.0443
+    },
+    {
+      "macro_f1": 0.8569,
+      "accuracy": 0.8914,
+      "auc": 0.9126,
+      "recall": {
+        "unusable": 0.7292,
+        "usable": 0.9528
+      },
+      "precision": {
+        "unusable": 0.8537,
+        "usable": 0.903
+      },
+      "confusion_matrix": [
+        [
+          35,
+          13
+        ],
+        [
+          6,
+          121
+        ]
+      ],
+      "n_test": 175,
+      "fold": 5,
+      "tuned": {
+        "macro_f1": 0.8483,
+        "accuracy": 0.88,
+        "auc": 0.9126,
+        "recall": {
+          "unusable": 0.7708,
+          "usable": 0.9213
+        },
+        "precision": {
+          "unusable": 0.7872,
+          "usable": 0.9141
+        },
+        "confusion_matrix": [
+          [
+            37,
+            11
+          ],
+          [
+            10,
+            117
+          ]
+        ],
+        "n_test": 175,
+        "threshold": 0.643
+      },
+      "delta_vs_armB_argmax": 0.0386,
+      "delta_vs_armB_tuned": -0.0272
+    }
+  ]
+}

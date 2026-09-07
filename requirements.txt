@@ -1,0 +1,30 @@
+# Core pipeline + training
+numpy
+pandas
+Pillow
+scikit-learn
+scipy
+matplotlib
+joblib
+torch
+torchvision
+timm
+transformers
+huggingface_hub
+requests
+
+# Review tool (web app)
+fastapi
+uvicorn
+itsdangerous
+
+# VLM labelling probes (only needed to re-run the labelling experiments)
+anthropic
+openai
+google-auth
+
+# Notes:
+# - tkinter (desktop review tool) ships with the standard Python installer on Windows.
+# - The PLIP encoder (vinid/plip) downloads from Hugging Face on first use (~600 MB).
+# - CUDA-capable PyTorch is required for train_quality_cnn.py (it refuses to train on CPU).
+# - ultralytics is only needed to re-run the YOLO training (yolo_cvF.py).

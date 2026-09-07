@@ -1,0 +1,75 @@
+{
+  "task": "predict HPA small-intestine expression level from tile pixels",
+  "n_tiles": 6400,
+  "n_slides": 100,
+  "split": "GroupShuffleSplit by slide 80:20, seed 42, UNSEEN test slides",
+  "train_tiles": 5120,
+  "test_tiles": 1280,
+  "test_slides": 20,
+  "per_tile_class_counts": {
+    "not detected": 3584,
+    "high": 1536,
+    "low": 1024,
+    "medium": 256
+  },
+  "four_class": {
+    "unseen_accuracy": 0.5266,
+    "macro_f1": 0.1916,
+    "majority_baseline": 0.55,
+    "confusion_matrix": [
+      [
+        664,
+        19,
+        0,
+        21
+      ],
+      [
+        306,
+        4,
+        0,
+        10
+      ],
+      [
+        62,
+        1,
+        0,
+        1
+      ],
+      [
+        186,
+        0,
+        0,
+        6
+      ]
+    ],
+    "confusion_labels": [
+      "not detected",
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "binary_detected": {
+    "unseen_accuracy": 0.5258,
+    "macro_f1": 0.4867,
+    "majority_baseline": 0.55,
+    "confusion_matrix": [
+      [
+        513,
+        191
+      ],
+      [
+        416,
+        160
+      ]
+    ],
+    "confusion_labels": [
+      "not detected",
+      "detected"
+    ]
+  },
+  "per_image_majority_vote": {
+    "four_class_acc": 0.55,
+    "binary_acc": 0.55
+  }
+}

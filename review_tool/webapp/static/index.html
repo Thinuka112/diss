@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Slice-Quality Review</title>
+<link rel="stylesheet" href="/static/style.css?v=3">
+<script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/openseadragon.min.js"></script>
+</head>
+<body>
+
+<!-- Sign-in -->
+<div id="signin" class="card hidden">
+  <h1>Slice-Quality Review</h1>
+  <p class="sub">Zoom into each slide and judge it. Your calls build a validated training set.</p>
+  <label>Passcode <input id="passcode" type="password" autocomplete="off"></label>
+  <label>Your name <input id="name" type="text" autocomplete="off" placeholder="e.g. Dr Smith"></label>
+  <label>Feature to judge
+    <select id="profile"></select>
+  </label>
+  <button id="signinBtn" class="primary">Start reviewing</button>
+  <p id="signinErr" class="err"></p>
+  <p class="meta" id="setMeta"></p>
+</div>
+
+<!-- Review -->
+<div id="review" class="hidden">
+  <header>
+    <span id="who"></span>
+    <span id="progress" class="progress"></span>
+    <button id="signout" class="link">sign out</button>
+  </header>
+  <div id="osd"></div>
+  <div id="toast" class="toast hidden"></div>
+  <div id="prompt"></div>
+  <div id="buttons"></div>
+  <div class="controls">
+    <button id="skipBtn">Skip (Space)</button>
+    <span class="hint">Scroll / pinch to zoom · drag to pan · double-click to zoom in</span>
+  </div>
+</div>
+
+<!-- Done -->
+<div id="done" class="card hidden">
+  <h1>All done 🎉</h1>
+  <p>You've judged every image in this set. Thank you!</p>
+  <p id="doneProgress" class="meta"></p>
+  <button id="reviewMore" class="link">back</button>
+</div>
+
+<script src="/static/app.js?v=3"></script>
+</body>
+</html>
