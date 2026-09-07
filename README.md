@@ -4,7 +4,7 @@ Code and evidence for an MSc dissertation (University of Bath, 2026). The projec
 
 This repository is the dissertation's supporting artefact. It replaces the print appendices for configuration, code, results, validation experiments and the data audit. Start at `docs/`.
 
-## Quick start (for examiners)
+## Quick start
 
 Install Python 3.11+ and run `pip install -r requirements.txt` once. Then double-click:
 
